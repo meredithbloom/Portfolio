@@ -1,0 +1,16 @@
+@media (max-width: 375px) {
+  ul {
+    list-style: none;
+    color: green;
+  }
+
+
+
+
+
+
+}
+
+body {
+  color: pink;
+}
