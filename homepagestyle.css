@@ -1,4 +1,4 @@
-@media (max-width: 415px) {
+@media (max-width: 430px) {
 
   header {
     background-color: #253F62;
@@ -53,7 +53,7 @@
   }
 
   .homepage-top {
-    height: 450px;
+    height: 470px;
     display: relative;
   }
 
