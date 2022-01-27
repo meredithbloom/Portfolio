@@ -55,6 +55,7 @@
   .homepage-top {
     height: 470px;
     display: relative;
+    width: 100%;
   }
 
   #pic-overlay {
