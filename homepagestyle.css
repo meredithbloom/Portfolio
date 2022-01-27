@@ -1,16 +1,121 @@
 @media (max-width: 375px) {
-  ul {
-    list-style: none;
-    color: green;
+
+  header {
+    background-color: #253F62;
   }
 
+  h1{
+    font-size: 25px;
+    color: white;
+  }
 
+  .dropdown-menu {
+    font-family: 'Miso';
+    display: flex;
+    justify-content: space-around;
+  }
 
+  .dropdown-ul {
+    display: flex;
+    padding-left: 0px;
+    width: 100%;
+    justify-content: space-around;
+  }
 
+  .dropdown-li {
+    padding: 5px;
+  }
 
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  ul {
+    list-style: none;
+    font-size: 14px;
+  }
+
+  h2 {
+    text-align: center;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    bottom: 40%;
+    left: 30%;
+    font-size: 25px;
+  }
+
+  img {
+    width: 75%;
+    position: relative;
+    left: 12.5%;
+    margin-right: 0 auto;
+    border-radius: 300px;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  .social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: blue;
+  }
+
+  ion-icon {
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+  }
+
+  p {
+    text-align: center;
+
+  }
 
 }
 
 body {
-  color: pink;
+  margin: 0 auto;
+}
+
+header {
+
+}
+section {
+  ;
+}
+
+.homepage-top {
+  background-color: #37649d;
+  background: linear-gradient(177deg, rgba(37,63,98,1) 0%, rgba(55,100,157,1) 68%, rgba(62,99,144,1) 100%);
+}
+
+div {
+  border: 1px solid blue;
+}
+
+h1 {
+  font-family: 'SeasideResortNF';
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+
+h2 {
+  font-family: 'Miso';
+  color: white;
+}
+
+h3 {
+  font-family: "Miso";
+}
+
+p {
+  font-family: 'Miso';
 }
