@@ -2,6 +2,7 @@
 
   header {
     background-color: #253F62;
+
     display: flex;
     flex-flow: column wrap;
     align-content: center;
@@ -11,20 +12,20 @@
   #modal-menu-btn {
     /* margin-top: 15px; */
     align-self: flex-end;
+    padding-bottom: 3px;
   }
 
 
   h1{
-    font-size: 23px;
+    font-size: 18px;
     color: white;
-    padding-bottom: 10px;
   }
 
   .dropdown-menu {
     font-family: 'Miso';
     display: none;
     justify-content: space-around;
-    /* position: fixed; */
+    height: 40px;
 
   }
 
@@ -39,6 +40,7 @@
   .dropdown-li {
     padding-left: 12px;
     padding-right: 12px;
+    font-size: 12px;
 
   }
 
@@ -52,41 +54,21 @@
     font-size: 14px;
   }
 
-  .homepage-top {
-    height: 430px;
-    display: relative;
-  }
-
-  #pic-overlay {
-    width: 60%;
-    height: 3em;
-    display: flex;
-    position: relative;
-    left: 20%;
-    top: 10%;
-    text-align: center;
-    min-width: 48px;
-  }
-
   h2 {
-    display: inline;
+    text-align: center;
+    color: #253F62;
+    font-size: 1em;
+    font-family: 'Caviar Dreams';
     margin: 0 auto;
-    color: white;
-    /* position: relative; */
-    z-index: 1;
-    /* top: 45%;
-    left: 22%; */
-    font-size: 30px;
+    padding: 10px;
   }
 
-  img {
-    width: 66%;
-    position: relative;
-    border-radius: 300px;
-    display: block;
-    left: 16%;
-    top: 5%;
-    min-width: 220px;
+  .main-resume {
+    width: 100%;
+  }
+
+  article {
+    width: 100%;
   }
 
   h3 {
@@ -114,10 +96,11 @@
 
   p {
     text-align: center;
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-size: 14px;
   }
 
 
@@ -141,10 +124,6 @@
     flex-wrap: wrap;
   }
 
-
-
-
-
 }
 
 body {
@@ -152,15 +131,16 @@ body {
 }
 
 header {
-
+  position: sticky; top: 0;
+  z-index: 1;
 }
 section {
   ;
 }
 
-.homepage-top {
-  background-color: #37649d;
-  background: linear-gradient(177deg, rgba(37,63,98,1) 0%, rgba(55,100,157,1) 68%, rgba(62,99,144,1) 100%);
+.main-resume {
+  /* background-color: #253F62; */
+  /* background: linear-gradient(177deg, rgba(37,63,98,1) 0%, rgba(55,100,157,1) 68%, rgba(62,99,144,1) 100%); */
 }
 
 #modal-menu-btn {
@@ -204,7 +184,6 @@ ion-icon:hover {
 
 h2 {
   font-family: 'Caviar Dreams';
-  color: white;
 }
 
 h3 {

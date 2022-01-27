@@ -1,0 +1,218 @@
+@media (max-width: 415px) {
+
+  header {
+    background-color: #253F62;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    align-items: center;
+  }
+
+  #modal-menu-btn {
+    /* margin-top: 15px; */
+    align-self: flex-end;
+  }
+
+
+  h1{
+    font-size: 23px;
+    color: white;
+    padding-bottom: 5px;
+  }
+
+  .dropdown-menu {
+    font-family: 'Miso';
+    display: none;
+    justify-content: space-around;
+    /* position: fixed; */
+
+  }
+
+  .dropdown-ul {
+    font-family: 'Miso';
+    display: flex;
+    padding-left: 0px;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .dropdown-li {
+    padding-left: 12px;
+    padding-right: 12px;
+
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  ul {
+    list-style: none;
+    font-size: 14px;
+  }
+
+  .homepage-top {
+    height: 450px;
+    display: relative;
+  }
+
+  #pic-overlay {
+    width: 60%;
+    height: 3em;
+    display: flex;
+    position: relative;
+    left: 20%;
+    top: 10%;
+    text-align: center;
+    min-width: 50px;
+  }
+
+  h2 {
+    display: inline;
+    margin: 0 auto;
+    color: white;
+    /* position: relative; */
+    z-index: 1;
+    /* top: 45%;
+    left: 22%; */
+    font-size: 30px;
+  }
+
+  img {
+    width: 66%;
+    position: relative;
+    border-radius: 300px;
+    display: block;
+    left: 16%;
+    top: 5%;
+    min-width: 220px;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  .social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* background: rgba(62,99,144,1); */
+
+  }
+
+  ion-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  ion-icon:hover {
+    color: #37649d;
+  }
+
+  p {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+
+
+  .divider {
+    width: 80%;
+    border: 1px solid grey;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+
+
+  .homepage-link-icons {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  ul.icons {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+    flex-wrap: wrap;
+  }
+
+
+
+
+
+}
+
+body {
+  margin: 0 auto;
+}
+
+header {
+  position: sticky; top: 0;
+  z-index: 1;
+}
+section {
+  ;
+}
+
+.homepage-top {
+  background-color: #37649d;
+  background: linear-gradient(177deg, rgba(37,63,98,1) 0%, rgba(55,100,157,1) 68%, rgba(62,99,144,1) 100%);
+}
+
+#modal-menu-btn {
+  font-family: 'Miso';
+  color: white;
+  background-color: rgba(37,63,98,0);
+  border-style: none;
+}
+
+#close-menu-btn {
+  font-family: 'Miso';
+  color: white;
+  background-color: rgba(37,63,98,0);
+  border-style: none;
+  display: none;
+
+}
+
+div {
+
+}
+
+h1 {
+  font-family: 'SeasideResortNF';
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+ion-icon {
+  color: grey;
+  font-size: 10px;
+}
+
+ion-icon:hover {
+  color: #37649d;
+  cursor: default;
+}
+
+
+h2 {
+  font-family: 'Caviar Dreams';
+  color: white;
+}
+
+h3 {
+  font-family: "Miso";
+}
+
+p {
+  font-family: 'Miso';
+}
