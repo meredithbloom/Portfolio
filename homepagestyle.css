@@ -8,8 +8,8 @@
     align-items: center;
   }
 
-  .modal-menu-btn {
-    margin: 5px;
+  #modal-menu-btn {
+    /* margin-top: 15px; */
     align-self: flex-end;
   }
 
@@ -17,15 +17,19 @@
   h1{
     font-size: 23px;
     color: white;
+    padding-bottom: 10px;
   }
 
   .dropdown-menu {
     font-family: 'Miso';
-    display: flex;
+    display: none;
     justify-content: space-around;
+    /* position: fixed; */
+
   }
 
   .dropdown-ul {
+    font-family: 'Miso';
     display: flex;
     padding-left: 0px;
     width: 100%;
@@ -33,7 +37,9 @@
   }
 
   .dropdown-li {
-    padding: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+
   }
 
   a {
@@ -47,7 +53,7 @@
   }
 
   .homepage-top {
-    height: 400px;
+    height: 430px;
     display: relative;
   }
 
@@ -55,9 +61,9 @@
     width: 60%;
     height: 3em;
     display: flex;
-    position: absolute;
+    position: relative;
     left: 20%;
-    top: 48%;
+    top: 10%;
     text-align: center;
     min-width: 48px;
   }
@@ -155,6 +161,22 @@ section {
 .homepage-top {
   background-color: #37649d;
   background: linear-gradient(177deg, rgba(37,63,98,1) 0%, rgba(55,100,157,1) 68%, rgba(62,99,144,1) 100%);
+}
+
+#modal-menu-btn {
+  font-family: 'Miso';
+  color: white;
+  background-color: rgba(37,63,98,0);
+  border-style: none;
+}
+
+#close-menu-btn {
+  font-family: 'Miso';
+  color: white;
+  background-color: rgba(37,63,98,0);
+  border-style: none;
+  display: none;
+
 }
 
 div {
