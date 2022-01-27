@@ -1,0 +1,405 @@
+@media (max-width: 430px) {
+
+  header {
+    background-color: #253F62;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    align-items: center;
+  }
+
+  #modal-menu-btn {
+    /* margin-top: 15px; */
+    align-self: flex-end;
+    padding-bottom: 3px;
+  }
+
+  h1{
+    font-size: 18px;
+    color: white;
+  }
+
+  .dropdown-menu {
+    font-family: 'Miso';
+    display: none;
+    justify-content: space-around;
+    height: 40px;
+
+  }
+
+  .dropdown-ul {
+    font-family: 'Miso';
+    display: flex;
+    padding-left: 0px;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .dropdown-li {
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 12px;
+
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  ul {
+    list-style: none;
+    font-size: 14px;
+  }
+
+  h2 {
+    text-align: center;
+    color: #253F62;
+    font-size: 20px;;
+    font-family: 'Caviar Dreams';
+    margin: 0 auto;
+  }
+
+  .resume-header {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+  body {
+    overflow: scroll;
+  }
+
+  .main-resume {
+    width: 100%;
+  }
+
+  article {
+    width: 100%;
+  }
+
+  h3 {
+    text-align: center;
+    font-size: 15px;
+    color: #253F62;
+    margin: 10px 0 5px 0;
+  }
+
+  ion-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  ion-icon:hover {
+    color: #37649d;
+  }
+
+  p {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #253F62;
+  }
+
+
+  .divider {
+    width: 80%;
+    border: 1px solid grey;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+
+
+  h4 {
+    width: 100%;
+    color: #253F62;
+    margin: 0 auto;
+    margin-top: 15px;
+
+  }
+
+  .education-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 200px;
+
+  }
+
+  .oberlin-info {
+    height: 130px;
+    display: inline-block;
+    width: 110px;
+    margin-bottom: 15px;
+  }
+
+  #oberlin-logo {
+    height: 110px;
+    width: 110px;
+    margin: 0 auto;
+
+  }
+
+  .degree {
+    color: #253F62;
+    font-family: 'Miso';
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+    }
+
+  .general-assembly {
+    height: 130px;
+    width: 115px;
+    margin-bottom: 15px;
+
+  }
+
+  #GA-logo {
+    height: 115px;
+    width: 115px;
+  }
+
+  .certificate {
+    text-align: center;
+    position: relative;
+    font-family: 'Miso';
+    bottom: 25px;
+    z-index: 1;
+    color: #253F62;
+  }
+
+  .skills-awards {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    flex-direction: column;
+    color: #253F62;
+  }
+
+
+  .skills {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #skills-header {
+    margin-bottom: 5px;
+    font-size: .9em;
+  }
+
+  #skill-btns {
+    text-align: center;
+  }
+
+  #close-skills {
+    border: none;
+    background-color: white;
+    color: #253F62;
+    font-size: 12px;
+    padding: 0;
+    font-family: 'Caviar Dreams';
+    display: none;
+
+  }
+
+
+  .skills-list {
+    font-family: "Miso";
+    list-style: circle;
+    margin-top: 10px;
+  }
+
+  .awards {
+
+  }
+
+  .awards-achievements {
+    list-style: circle;
+    font-family: "Miso";
+  }
+
+  .hs {
+    list-style: circle;
+  }
+
+  .interests {
+    margin: 0 auto;
+
+  }
+
+  h5 {
+    text-align: center;
+
+  }
+
+  ul.interests {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+    flex-wrap: wrap;
+  }
+
+
+  #gloves {
+    height: 40px;
+    width: 40px;
+  }
+
+  #book {
+    height: 40px;
+    width: 40px;
+  }
+
+  #sci-fi {
+    height: 40px;
+    width: 40px;
+  }
+
+  #controller {
+    height: 40px;
+    width: 40px;
+  }
+
+  footer {
+    margin-top: 15px;
+    text-align: center;
+    font-family: "Miso";
+    font-size: 10px;
+  }
+
+
+  .credits-dropdown {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .credit-btn {
+    border: none;
+    background-color: white;
+    color: #253F62;
+    font-size: 12px;
+    padding: 0;
+    font-family: 'Miso';
+  }
+
+  #close-credits {
+    display: none;
+  }
+
+  #credits {
+    font-size: 12px;
+    font-family: "Caviar Dreams";
+    color: #253F62;
+    margin: 5px 0 5px 0;
+  }
+
+  .icon-credits {
+    padding-left: 0px;
+    font-size: 10px;
+    display: none;
+    overflow: scroll;
+  }
+
+
+}
+
+body {
+  margin: 0 auto;
+}
+
+header {
+  position: sticky; top: 0;
+  z-index: 1;
+}
+section {
+  ;
+}
+
+.main-resume {
+  /* background-color: #253F62; */
+  /* background: linear-gradient(177deg, rgba(37,63,98,1) 0%, rgba(55,100,157,1) 68%, rgba(62,99,144,1) 100%); */
+}
+
+#modal-menu-btn {
+  font-family: 'Miso';
+  color: white;
+  background-color: rgba(37,63,98,0);
+  border-style: none;
+}
+
+#close-menu-btn {
+  font-family: 'Miso';
+  color: white;
+  background-color: rgba(37,63,98,0);
+  border-style: none;
+  display: none;
+
+}
+
+div {
+
+}
+
+h1 {
+  font-family: 'SeasideResortNF';
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+ion-icon {
+  color: grey;
+  font-size: 10px;
+}
+
+ion-icon:hover {
+  color: #37649d;
+  cursor: default;
+}
+
+
+h2 {
+  font-family: 'Caviar Dreams';
+}
+
+h3 {
+  font-family: "Caviar Dreams";
+}
+
+h4 {
+  font-family: 'Caviar Dreams';
+  text-align: center;
+  color: #253F62;
+}
+
+h5 {
+  font-family: 'Caviar Dreams';
+  color: #253F62;
+
+}
+
+p {
+  font-family: 'Miso';
+}
+
+ul {
+  list-style: none;
+}
+
+#oberlin-logo {
+  height: 110px;
+  width: 110px;
+  margin: 0 auto;
+}
+
+
+.credit {
+  color: #37649d;
+  display: block;
+}
