@@ -1,11 +1,21 @@
-@media (max-width: 375px) {
+@media (max-width: 415px) {
 
   header {
     background-color: #253F62;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    align-items: center;
   }
 
+  .modal-menu-btn {
+    margin: 5px;
+    align-self: flex-end;
+  }
+
+
   h1{
-    font-size: 25px;
+    font-size: 23px;
     color: white;
   }
 
@@ -36,22 +46,41 @@
     font-size: 14px;
   }
 
-  h2 {
-    text-align: center;
-    color: white;
+  .homepage-top {
+    height: 400px;
+    display: relative;
+  }
+
+  #pic-overlay {
+    width: 60%;
+    height: 3em;
+    display: flex;
     position: absolute;
+    left: 20%;
+    top: 48%;
+    text-align: center;
+    min-width: 48px;
+  }
+
+  h2 {
+    display: inline;
+    margin: 0 auto;
+    color: white;
+    /* position: relative; */
     z-index: 1;
-    bottom: 40%;
-    left: 30%;
-    font-size: 25px;
+    /* top: 45%;
+    left: 22%; */
+    font-size: 30px;
   }
 
   img {
-    width: 75%;
+    width: 66%;
     position: relative;
-    left: 12.5%;
-    margin-right: 0 auto;
     border-radius: 300px;
+    display: block;
+    left: 16%;
+    top: 5%;
+    min-width: 220px;
   }
 
   h3 {
@@ -61,20 +90,54 @@
   .social-media {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    color: blue;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* background: rgba(62,99,144,1); */
+
   }
 
   ion-icon {
-    width: 50px;
-    height: 50px;
-    z-index: 1;
+    width: 40px;
+    height: 40px;
+  }
+
+  ion-icon:hover {
+    color: #37649d;
   }
 
   p {
     text-align: center;
-
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
+
+
+  .divider {
+    width: 80%;
+    border: 1px solid grey;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+
+
+  .homepage-link-icons {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  ul.icons {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+    flex-wrap: wrap;
+  }
+
+
+
+
 
 }
 
@@ -95,7 +158,7 @@ section {
 }
 
 div {
-  border: 1px solid blue;
+
 }
 
 h1 {
@@ -106,9 +169,19 @@ h1 {
   padding-top: 10px;
 }
 
+ion-icon {
+  color: grey;
+  font-size: 10px;
+}
+
+ion-icon:hover {
+  color: #37649d;
+  cursor: default;
+}
+
 
 h2 {
-  font-family: 'Miso';
+  font-family: 'Caviar Dreams';
   color: white;
 }
 

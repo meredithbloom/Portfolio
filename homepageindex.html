@@ -16,6 +16,7 @@
 <body>
   <header>
     <h1>Meredith Bloom</h1>
+    <span><button class="modal-menu-btn">Menu</button></span>
     <nav class="dropdown-menu">
       <ul class="dropdown-ul">
         <li class="dropdown-li"><a href='#'>Bio</a></li>
@@ -23,37 +24,43 @@
         <li class="dropdown-li"><a href='#'>All Time Best</a></li>
         <li class="dropdown-li"><a href='#'>Contact Me</a></li>
       </ul>
+    </nav>
   </header>
 
   <section class="homepage-top">
     <img src="LinkedIn pic 1.jpg" title="source: imgur.com"/>
-    <h2>Hello, I'm Meredith</h2>
+    <div id="pic-overlay"><h2>Hi, I'm Meredith.</h2></div>
   </section>
 
 
   <section class="homepage-aboutme">
     <div class="social-media">
-      <ion-icon name="logo-instagram"></ion-icon>
-      <ion-icon name="logo-linkedin"></ion-icon>
-      <ion-icon name="logo-twitch"></ion-icon>
+      <ion-icon name="logo-instagram">IG</ion-icon>
+      <ion-icon name="logo-linkedin">LI</ion-icon>
+      <ion-icon name="logo-twitch">Twitch</ion-icon>
     </div>
+    <div class="divider"></div>
     <h3>About Me</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   </section>
 
+  <div class="divider"></div>
 
   <section class="homepage-link-icons">
+    <h3>Links</h3>
     <div class="icons">
       <ul class="icons" id="link-icons">
-        <li id="resume-icon">Resume</li>
-        <li id="videogame-icon">Projects</li>
-        <li id="writing">Writing & Editing</li>
-        <li id="collabs">Collaborators & Creators</li>
+        <li id="resume-icon"><ion-icon name="newspaper-outline"></ion-icon></li>
+        <li id="videogame-icon"><ion-icon name="game-controller-outline"></ion-icon></li>
+        <li id="writing"><ion-icon name="pencil-outline"></ion-icon></li>
+        <li id="collabs"><ion-icon name="person"></ion-icon></li>
       </ul>
     </div>
   </section>
 
   <div id="root"></div>
   <script src="homepageapp.js" type="text/javascript"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
