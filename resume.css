@@ -55,9 +55,10 @@
   h2 {
     text-align: center;
     color: #253F62;
-    font-size: 20px;;
+    font-size: 2em;;
     font-family: 'Caviar Dreams';
     margin: 0 auto;
+    font-weight: bolder;
   }
 
   .resume-header {
@@ -76,45 +77,69 @@
   article {
     width: 100%;
     display: flex;
+    justify-content: flex-end;
   }
 
 
   .small-divide {
     border: 1px solid green;
-    display: none;
+    /* display: ; */
   }
 
   .job-description {
-
+    display: flex;
+    /* border: 1px solid gold; */
+    flex-direction: column;
+    width: 95%;
+    justify-content: space-evenly;
+    align-items: space-between;
   }
 
 
   .employer {
     /* border: 1px solid red; */
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 30px;
+    align-items: center;;
+    left: 15px;
+    margin-top: 10px;
     display: flex;
-    align-items: center;
-    margin-right: 15px;
+    justify-content: center;
+    align-self: flex-start;
+    position: absolute;
   }
 
   #springer-nature {
-    width: 75px;
+    width: 60px;
+    /* float: left; */
   }
 
 
   #writers-house {
-    width: 75px;
+    width: 60px;
+    margin-top:40%;
+    margin-bottom: 40%;
+
+    /* float: left; */
 
 
   }
 
   h3 {
     text-align: center;
-    font-size: 15px;
+    font-size: 16px;
     color: #253F62;
-    margin: 10px 0 5px 0;
+    margin: 7px 0 0px 0;
+
   }
+
+  h6 {
+    margin: 0 auto;
+    font-family: "Caviar Dreams";
+    font-size: 14px;
+    color: #253F62;
+  }
+
 
   ion-icon {
     width: 40px;
@@ -127,20 +152,25 @@
 
   p {
     text-align: center;
-    width: 75%;
+    width: 90%;
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 13px;
+    font-size: 17px;
     color: #253F62;
+    float: right;
   }
 
+  .job-info {
+    font-size: 1.3em;
+  }
 
   .divider {
     width: 80%;
     border: 1px solid grey;
     margin: 0 auto;
     margin-top: 15px;
+    margin-bottom: 5px;
   }
 
 
@@ -150,6 +180,10 @@
     margin: 0 auto;
     margin-top: 15px;
 
+  }
+
+  #education {
+    font-size: 1.2em;
   }
 
   .education-section {
@@ -180,6 +214,7 @@
     position: relative;
     bottom: 20px;
     text-align: center;
+    font-size: 1em;
     }
 
   .general-assembly {
@@ -201,6 +236,7 @@
     bottom: 25px;
     z-index: 1;
     color: #253F62;
+    font-size: 1em;
   }
 
   .skills-awards {
@@ -219,8 +255,9 @@
   }
 
   #skills-header {
+    margin-top: 10px;
     margin-bottom: 5px;
-    font-size: .9em;
+    font-size: 1.3em;
   }
 
   #skill-btns {
@@ -243,57 +280,110 @@
     font-family: "Miso";
     list-style: circle;
     margin-top: 10px;
+    font-size: 1.2em;
+    padding-left: 5px;
+    margin-bottom: 5px;
   }
 
-  .awards {
 
+  #awards-header {
+    font-size: 1.3em;
+    margin-bottom: 3px;
+    margin-top: 15px;
+
+  }
+  .awards {
   }
 
   .awards-achievements {
     list-style: circle;
     font-family: "Miso";
+    font-size: 1.2em;
+    padding-left: 5px;
+  }
+
+  #close-hs {
+    display: none;
+    border: none;
+    background-color: white;
+    color: #253F62;
+    font-size: 14px;
+    padding: 0;
+    font-family: 'Miso';
   }
 
   .hs {
     list-style: circle;
+    font-size: .9em;
+    display: none;
   }
 
-  .interests {
-    margin: 0 auto;
-
-  }
 
   h5 {
     text-align: center;
 
   }
 
-  ul.interests {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 0px;
-    flex-wrap: wrap;
+
+  #interests-header {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 1em;
+    margin-bottom: 10px;
   }
 
 
+  .interests {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    flex-wrap: wrap;
+    width: 92%;
+  }
+
+
+  .hobby {
+    margin: 15px 15px 15px 15px;
+  }
+
   #gloves {
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
   }
 
   #book {
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
   }
 
   #sci-fi {
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
   }
 
   #controller {
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
+  }
+
+  #chess {
+    height: 50px;
+    width: 50px;
+  }
+
+  #soccer {
+    height: 50px;
+    width: 50px;
+  }
+
+  #puzzle {
+    height: 50px;
+    width: 50px;
+  }
+
+  #journal {
+    height: 50px;
+    widthL 50px;
   }
 
   footer {

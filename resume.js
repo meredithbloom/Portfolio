@@ -42,6 +42,19 @@ const $skillsClose = $('#close-skills')
 
 //////// achievements & awards dropdown
 
+const $hsOpenBtn = $('#other')
+const $hsList = $('.hs')
+const $hsCloseBtn = $('#close-hs')
+
+const showHs = () => {
+  $hsList.css('display', 'block');
+  $hsCloseBtn.css('display', 'inline-block');
+}
+
+const closeHs = () => {
+  $hsList.css('display', 'none');
+  $hsCloseBtn.css('display', 'none');
+}
 
 
 ///////site credits dropdown
@@ -72,6 +85,9 @@ $(() => {
   $menubtn.on('click', showMenu);
   $closeBtn.on('click', closeMenu);
 
+
+  $hsOpenBtn.on('click', showHs);
+  $hsCloseBtn.on('click', closeHs)
   ////open skills dropdown
   // $skillsOpen.on('click', showSkills);
   // $skillsClose.on('click', hideSkills)
