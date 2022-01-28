@@ -75,6 +75,38 @@
 
   article {
     width: 100%;
+    display: flex;
+  }
+
+
+  .small-divide {
+    border: 1px solid green;
+    display: none;
+  }
+
+  .job-description {
+
+  }
+
+
+  .employer {
+    /* border: 1px solid red; */
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+  }
+
+  #springer-nature {
+    width: 75px;
+  }
+
+
+  #writers-house {
+    width: 75px;
+
+
   }
 
   h3 {
@@ -95,7 +127,7 @@
 
   p {
     text-align: center;
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 10px;
