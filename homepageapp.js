@@ -19,10 +19,38 @@ const closeMenu = () => {
 }
 
 
+const $openContact = $('#contact-modal-open');
+const $contactModal = $('#contact-modal');
+const $closeContact = $('#close')
+
+const showModal = () => {
+  $contactModal.css('display', "flex");
+}
+
+const closeModal = () => {
+  $contactModal.css('display', "none");
+}
+
+
+
+
+
+
 
 $(() => {
 
   $menubtn.on('click', showMenu);
   $closeBtn.on('click', closeMenu);
+
+  $openContact.on('click', showModal);
+  $closeContact.on('click', closeModal);
+
+
+
+
+
+
+
+
 
 });

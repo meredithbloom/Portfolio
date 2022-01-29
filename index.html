@@ -22,7 +22,15 @@
         <li class="dropdown-li"><a href='#'>Bio</a></li>
         <li class="dropdown-li"><a href='#'>Thoughts</a></li>
         <li class="dropdown-li"><a href='#'>All Time Faves</a></li>
-        <li class="dropdown-li"><a href='#'>Contact Me</a></li>
+        <li class="dropdown-li"><button id="contact-modal-open">Contact Me</button>
+        <div id="contact-modal">
+          <div id="modal-textbox">
+            <a id="close" href="#">X</a>
+            <h5 id="modal-h5">Send me an email:</h5>
+            <p id="modal-p">Meredith.kbloom@gmail.com</p>
+          </div>
+        </div>
+        </li>
       </ul>
     </nav>
   </header>
@@ -35,9 +43,9 @@
 
   <section class="homepage-aboutme">
     <div class="social-media">
-      <a href="https://github.com/meredithbloom/" target="_blank"><ion-icon name="logo-github">Github</ion-icon></a>
-      <a href="https://www.linkedin.com/in/meredith-bloom/" target="_blank"><ion-icon name="logo-linkedin">LI</ion-icon></a>
-      <a href="https://www.twitch.tv/lilmoolah_" target="_blank"><ion-icon name="logo-twitch">Twitch</ion-icon></a>
+      <a href="https://github.com/meredithbloom/" target="_blank"><ion-icon name="logo-github" class="social">Github</ion-icon></a>
+      <a href="https://www.linkedin.com/in/meredith-bloom/" target="_blank"><ion-icon name="logo-linkedin" class="social">LI</ion-icon></a>
+      <a href="https://www.twitch.tv/lilmoolah_" target="_blank"><ion-icon name="logo-twitch" class="social">Twitch</ion-icon></a>
     </div>
     <div class="divider"></div>
     <div class="about-me">
@@ -52,14 +60,18 @@
     <h3>Links</h3>
     <div class="icons">
       <ul class="icons" id="link-icons">
-        <a href="resume.html" target="_blank"><li id="resume-icon"><ion-icon name="newspaper-outline"></ion-icon></li></a>
+        <a href="resume.html" target="_blank"><li id="resume-icon"><ion-icon name="newspaper-outline" class="link"></ion-icon></li></a>
 
-        <a href="projects.html" target="_blank"><li id="videogame-icon"><ion-icon name="game-controller-outline"></ion-icon></li></a>
-        <li id="writing"><ion-icon name="pencil-outline"></ion-icon></li>
-        <li id="collabs"><ion-icon name="person"></ion-icon></li>
+        <a href="projects.html" target="_blank"><li id="videogame-icon"><ion-icon name="game-controller-outline" class="link"></ion-icon></li></a>
+        <li id="writing"><ion-icon name="pencil-outline" class="link"></ion-icon></li>
+        <li id="collabs"><ion-icon name="person" class="link"></ion-icon></li>
       </ul>
     </div>
   </section>
+
+  <footer></footer>
+
+
 
   <div id="root"></div>
   <script src="homepageapp.js" type="text/javascript"></script>
