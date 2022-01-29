@@ -68,9 +68,45 @@
     width: 100%;
   }
 
-  article {
+  /* article {
     width: 100%;
+  } */
+
+  .project-flex {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
   }
+
+
+  article {
+    width: 80%;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-around;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .back {
+    align-self: flex-start;
+    position: absolute;
+    color: #253F62;
+    border: none;
+    font-size: 1.5em;
+    background-color: white;
+  }
+
+  .forward {
+    align-self: flex-end;
+    position: absolute;
+    color: #253F62;
+    border: none;
+    font-size: 1.5em;
+    background-color: white;
+  }
+
 
   .project-img {
     border: 2px solid pink;
@@ -79,7 +115,6 @@
     height: 200px;
     margin-top: 15px;
   }
-
 
 
   h3 {

@@ -1,4 +1,14 @@
 
+const carousel1 = []
+const carousel2 = []
+const carousel3 = []
+
+
+
+
+
+
+
 /////code for main dropdown menu
 const $menubtn = $('#modal-menu-btn')
 const $menu = $('.dropdown-menu')
