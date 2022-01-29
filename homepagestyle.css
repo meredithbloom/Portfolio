@@ -332,10 +332,12 @@
 
 
 
-
+/* DESKTOP RESPONSIVENESS */
 
 @media (min-width: 826px) {
 
+
+/* HEADER & DROPDOWN MENU  */
   header {
     background-color: #253F62;
     /* background-color: rgba(62,99,144,0); */
@@ -372,6 +374,8 @@
     font-size: 3.2em;
   }
 
+/* CONTACT ME MODAL WITH EMAIL ADDRESS */
+
   #contact-modal-open {
     font-size: 40px;
     border: none;
@@ -391,6 +395,8 @@
     padding-bottom: 5px;
     width: 80%;
   }
+
+/* DROPDOWN MENU CSS */
 
   .dropdown-menu {
     font-family: 'Miso';
@@ -432,6 +438,8 @@
     list-style: none;
     font-size: 14px;
   }
+
+/* EMAIL MODAL CSS  */
 
   #contact-modal {
     background-color: rgba(37,63,98,0.6);
@@ -481,11 +489,14 @@
     font-size: 2.2em;
   }
 
+  /* MAIN HOMEPAGE SECTION */
+
   .homepage-top {
     height: 900px;
     display: relative;
     width: 100%;
   }
+
 
   #pic-overlay {
     width: 30%;
@@ -510,8 +521,8 @@
     font-size: 4em;
   }
 
-  img {
-    width: 40%;
+  img.portrait {
+    width: 35%;
     position: relative;
     border-radius: 300px;
     display: block;
@@ -521,6 +532,7 @@
     min-width: 220px;
     max-height: 750px;
     max-width: 550px;
+
   }
 
   h3 {
@@ -544,16 +556,26 @@
   }
 
 
-
   ion-icon {
+    width: 30%;
     width: 125px;
     height: 125px;
   }
 
   ion-icon:hover {
+    transform: scale(1.4);
+  }
+
+  #twitch:hover {
+    color: #6441a5;
+  }
+
+  #LI:hover {
     color: #37649d;
-    width: 140px;
-    height: 140px;
+  }
+
+  #github:hover {
+    color: black;
   }
 
   .homepage-aboutme {
@@ -599,22 +621,97 @@
     flex-wrap: wrap;
   }
 
+  div.link {
+    display: flex;
+    align-items: center;
+  }
+
+
+  #resume {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+  }
+
+  #games {
+    width: 175px;
+    height: 175px;
+    margin: 0 auto;
+  }
+
+
+  #writing {
+    width: 175px;
+    height: 175px;
+    transform: scaleX(-1);
+  }
+
+  #collabs {
+    width: 175px;
+    height: 175px;
+  }
+
+
   .link {
-    height: 200px;
-    width: 200px;
+    height: 175px;
+    width: 175px;
   }
 
   .link:hover {
-    height: 220px;
-    width: 220px;
+    transform: scale(1.2);
   }
 
 
+/* footer starts below - includes dropdown menu with icon credit links */
+
+  footer {
+    margin-top: 15px;
+    text-align: center;
+    font-family: "Miso";
+    font-size: 25px;
+    color: grey;
+  }
+
+  .credits-dropdown {
+    display: flex;
+    justify-content: center;
+  }
+
+  .credit-btn {
+    border: none;
+    background-color: white;
+    color: grey;
+    font-size: 30px;
+    padding: 0;
+    font-family: 'Miso';
+  }
+
+  #close-credits {
+    display: none;
+  }
+
+  .credit {
+    font-size: 20px;
+    font-family: "Caviar Dreams";
+    color: #253F62;
+    margin: 5px 0 5px 0;
+  }
+
+  .icon-credits {
+    padding-left: 0px;
+    font-size: 20px;
+    display: none;
+    overflow: scroll;
+    color: grey;
+  }
+
+
+
+
+
+
+
 }
-
-
-
-
 
 
 

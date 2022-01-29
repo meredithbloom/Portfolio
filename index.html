@@ -36,16 +36,16 @@
   </header>
 
   <section class="homepage-top">
-    <img src="../LinkedIn pic 1.jpg" title="source: imgur.com"/>
+    <img src="../LinkedIn pic 1.jpg" title="source: imgur.com" class="portrait"/>
     <div id="pic-overlay"><h2>Hi, I'm Meredith.</h2></div>
   </section>
 
 
   <section class="homepage-aboutme">
     <div class="social-media">
-      <a href="https://github.com/meredithbloom/" target="_blank"><ion-icon name="logo-github" class="social">Github</ion-icon></a>
-      <a href="https://www.linkedin.com/in/meredith-bloom/" target="_blank"><ion-icon name="logo-linkedin" class="social">LI</ion-icon></a>
-      <a href="https://www.twitch.tv/lilmoolah_" target="_blank"><ion-icon name="logo-twitch" class="social">Twitch</ion-icon></a>
+      <a href="https://github.com/meredithbloom/" target="_blank"><ion-icon name="logo-github" class="social" id="github">Github</ion-icon></a>
+      <a href="https://www.linkedin.com/in/meredith-bloom/" target="_blank"><ion-icon name="logo-linkedin" class="social" id="LI">LI</ion-icon></a>
+      <a href="https://www.twitch.tv/lilmoolah_" target="_blank"><ion-icon name="logo-twitch" class="social" id="twitch">Twitch</ion-icon></a>
     </div>
     <div class="divider"></div>
     <div class="about-me">
@@ -60,16 +60,34 @@
     <h3>Links</h3>
     <div class="icons">
       <ul class="icons" id="link-icons">
-        <a href="resume.html" target="_blank"><li id="resume-icon"><ion-icon name="newspaper-outline" class="link"></ion-icon></li></a>
+        <div class ="link"><a href="resume.html" target="_blank"><img src="resume.png" name="resume" id="resume"></img></a></div>
 
-        <a href="projects.html" target="_blank"><li id="videogame-icon"><ion-icon name="game-controller-outline" class="link"></ion-icon></li></a>
-        <li id="writing"><ion-icon name="pencil-outline" class="link"></ion-icon></li>
-        <li id="collabs"><ion-icon name="person" class="link"></ion-icon></li>
+        <div class ="link"><img src="video-console.png" name="games-projects" id="games"></img></div>
+
+        <div class ="link"><img src="writing.png" name="writing" id="writing"></img></div>
+
+        <div class ="link"><img src="teamwork.png" name="collabs" id="collabs"></img></div>
+
       </ul>
     </div>
   </section>
 
-  <footer></footer>
+  <div class="divider"></div>
+  <footer>
+    <div class="credits-dropdown">
+      <span><button class="credit-btn" id="open-credits">Site Credits</button><button class="credit-btn" id="close-credits">X</button></span>
+    </div>
+    <ul class="icon-credits">
+
+      <li class="credit"><a href="https://www.flaticon.com/free-icons/portfolio" title="portfolio icons" class="credit">Portfolio icons created by Freepik - Flaticon</a></li>
+
+      <li class="credit"><a href="https://www.flaticon.com/free-icons/game-controller" title="game controller icons" class="credit">Game controller icons created by Freepik - Flaticon</a></li>
+
+      <li class="credit"><a href="https://www.flaticon.com/free-icons/write" title="write icons" class="credit">Write icons created by Freepik - Flaticon</a></li>
+
+      <li class="credit"><a href="https://www.flaticon.com/free-icons/teamwork" title="teamwork icons" class="credit">Teamwork icons created by juicy_fish - Flaticon</a></li>
+    </ul>
+  </footer>
 
 
 
