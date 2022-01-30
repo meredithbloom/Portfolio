@@ -27,6 +27,24 @@ const closeMenu = () => {
 }
 
 
+
+//////// contact info modal
+
+const $openContact = $('#contact-modal-open');
+const $contactModal = $('#contact-modal');
+const $closeContact = $('#close')
+
+const showModal = () => {
+  $contactModal.css('display', "flex");
+}
+
+const closeModal = () => {
+  $contactModal.css('display', "none");
+}
+
+
+
+
 ///////// skills dropdown
 
 const $skillsList = $('.skills-list')
@@ -79,6 +97,13 @@ $(() => {
   $menubtn.on('click', showMenu);
   $closeBtn.on('click', closeMenu);
 
+
+
+
+
+  ///contact info info modal
+  $openContact.on('click', showModal);
+  $closeContact.on('click', closeModal);
   ////open skills dropdown
   // $skillsOpen.on('click', showSkills);
   // $skillsClose.on('click', hideSkills)
