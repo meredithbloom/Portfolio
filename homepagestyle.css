@@ -18,24 +18,24 @@
     }
 
 
-    #modal-menu-btn {
-      /* margin-top: 15px; */
-      align-self: flex-end;
-      font-size: 25px;
-    }
+  #modal-menu-btn {
+    /* margin-top: 15px; */
+    align-self: flex-end;
+    font-size: 25px;
+  }
 
-    #contact-modal-open {
-      font-size: 14px;
-      border: none;
-      font-family: "Miso";
-      color: white;
-      background-color: #253F62;
-    }
+  #contact-modal-open {
+    font-size: 14px;
+    border: none;
+    font-family: "Miso";
+    color: white;
+    background-color: #253F62;
+  }
 
 
-    #contact-modal-open:hover {
-      font-size: 50px;
-    }
+  #contact-modal-open:hover {
+    font-size: 50px;
+  }
 
 
   h1{
