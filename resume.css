@@ -26,7 +26,7 @@
   }
 
   #contact-modal-open {
-    font-size: 14px;
+    font-size: 12px;
     border: none;
     font-family: "Miso";
     color: white;
@@ -57,7 +57,7 @@
   .dropdown-li {
     padding-left: 12px;
     padding-right: 12px;
-    font-size: 14px;
+    font-size: 12px;
 
   }
 
@@ -97,16 +97,16 @@
   #modal-h5 {
     margin-top: 20px;
     display: block;
-    font-size: 2em;
+    font-size: 1.5em;
     /* margin-bottom: 10px; */
-    margin: 20px 0px 20px 40px;
+    margin: 20px 0px 10px 40px;
     text-align: center;
     color: white;
 
   }
 
   #modal-p {
-    font-size: 2em;
+    font-size: 1.3em;
     color: white;
     font-family: "Caviar Dreams";
     /* margin-top: 15px; */
@@ -234,7 +234,7 @@
   }
 
   .job-info {
-    font-size: 1.3em;
+    font-size: 1.1em;
   }
 
   .divider {
@@ -411,6 +411,7 @@
     padding: 0px;
     flex-wrap: wrap;
     width: 92%;
+    margin: 0 auto;
   }
 
 
@@ -926,6 +927,7 @@
     padding: 0px;
     flex-wrap: wrap;
     width: 92%;
+    margin: 0 auto;
   }
 
 
@@ -1389,6 +1391,9 @@
     margin-bottom: 5px;
   }
 
+  .skill:hover {
+    font-size: 1.3em;
+  }
 
   #awards-header {
     font-size: 1.3em;
@@ -1396,7 +1401,8 @@
     margin-top: 15px;
 
   }
-  .awards {
+  .award:hover {
+    font-size: 1.3em;
   }
 
   .awards-achievements {
@@ -1422,6 +1428,9 @@
     display: none;
   }
 
+  .high-school:hover {
+    font-size: 1em;
+  }
 
   h5 {
     text-align: center;
@@ -1448,6 +1457,10 @@
 
   .hobby {
     margin: 15px 15px 15px 15px;
+  }
+
+  .hobby:hover {
+    transform: scale(1.5);
   }
 
   #gloves {
@@ -1536,7 +1549,540 @@
 
 
 
+@media (min-width: 1031px) {
+  header {
+    background-color: #253F62;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    align-items: center;
+  }
 
+  #close-menu-btn {
+    font-family: 'Miso';
+    color: white;
+    background-color: rgba(37,63,98,0);
+    border-style: none;
+    display: none;
+    font-size: 25px;
+  }
+
+
+  #modal-menu-btn {
+    /* margin-top: 15px; */
+    align-self: flex-end;
+    font-size: 25px;
+  }
+
+  #contact-modal-open {
+    font-size: 20px;
+    border: none;
+    font-family: "Miso";
+    color: white;
+    background-color: #253F62;
+  }
+
+
+  h1{
+    font-size: 30px;
+    color: white;
+  }
+
+  .dropdown-menu {
+    font-family: 'Miso';
+    display: none;
+    justify-content: space-around;
+    height: 40px;
+
+  }
+
+  .dropdown-ul {
+    font-family: 'Miso';
+    display: flex;
+    padding-left: 0px;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .dropdown-li {
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 20px;
+
+  }
+
+  #contact-modal {
+    background-color: rgba(37,63,98,0.8);
+    position: fixed;
+    top: 0;
+    right: 0;
+    color: white;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    overflow: auto;
+    text-align: center;
+    display: none;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+  }
+
+  #modal-textbook {
+    height: 25%;
+    width: 50%;
+    border-radius: 50px;
+    margin-top: 200px;
+    z-index: 2;
+  }
+
+  #close:hover {
+    font-size: 3em;
+  }
+
+  #modal-h5 {
+    margin-top: 20px;
+    display: block;
+    font-size: 2em;
+    /* margin-bottom: 10px; */
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+    color: white;
+
+  }
+
+  #modal-p {
+    font-size: 2em;
+    margin-top: 15px;
+    color: white;
+    font-family: "Caviar Dreams";
+  }
+
+  #modal-p:hover {
+    font-size: 2.2em;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  ul {
+    list-style: none;
+    font-size: 14px;
+  }
+
+  h2 {
+    text-align: center;
+    color: #253F62;
+    font-size: 2em;;
+    font-family: 'Caviar Dreams';
+    margin: 0 auto;
+    font-weight: bolder;
+  }
+
+  .resume-header {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+  body {
+    overflow: scroll;
+  }
+
+  .main-resume {
+    width: 100%;
+    /* border: 1px solid pink; */
+  }
+
+  article {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+
+  .jobs-box {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .small-divide {
+    border: 1px solid green;
+    /* display: ; */
+  }
+
+  .job-description {
+    display: flex;
+    /* border: 1px solid gold; */
+    flex-direction: column;
+    width: 95%;
+    justify-content: space-evenly;
+    align-items: space-between;
+  }
+
+
+  .employer {
+    /* border: 1px solid red; */
+    width: 100px;
+    height: 70px;
+    align-items: center;
+    left: 50px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+    position: absolute;
+  }
+
+
+  #springer-nature {
+    width: 100px;
+    /* float: left; */
+  }
+
+
+  #writers-house {
+    width: 100px;
+    margin-top:40%;
+    margin-bottom: 40%;
+
+    /* float: left; */
+
+
+  }
+
+  h3 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #253F62;
+    margin: 7px 0 0px 0;
+
+  }
+
+  h6 {
+    margin: 0 auto;
+    font-family: "Caviar Dreams";
+    font-size: 1.3em;
+    color: #253F62;
+  }
+
+
+  ion-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  ion-icon:hover {
+    color: #37649d;
+  }
+
+  p {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1em;
+    color: #253F62;
+    float: right;
+  }
+
+  .job-info {
+    font-size: 1.7em;
+  }
+
+  .divider {
+    width: 80%;
+    border: 1px solid grey;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+
+
+  h4 {
+    width: 100%;
+    color: #253F62;
+    margin: 0 auto;
+    margin-top: 15px;
+    font-size: 2em;
+
+  }
+
+  #education {
+    font-size: 1.5em;
+  }
+
+  .education-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 300px;
+
+  }
+
+  .oberlin-info {
+    height: 200px;
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #oberlin-logo {
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+
+  }
+
+  .degree {
+    color: #253F62;
+    font-family: 'Miso';
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    }
+
+  .general-assembly {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+  }
+
+  #GA-logo {
+    height: 150px;
+    width: 150px;
+  }
+
+  .certificate {
+    text-align: center;
+    position: relative;
+    font-family: 'Miso';
+    bottom: 25px;
+    z-index: 1;
+    color: #253F62;
+    font-size: 1.5em;
+  }
+
+  .skills-awards {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    flex-direction: column;
+    color: #253F62;
+  }
+
+
+  .skills {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skill:hover {
+    font-size: 1.5em;
+  }
+
+  #skills-header {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 1.5em;
+  }
+
+  #skill-btns {
+    text-align: center;
+  }
+
+  #close-skills {
+    border: none;
+    background-color: white;
+    color: #253F62;
+    font-size: 1em;
+    padding: 0;
+    font-family: 'Caviar Dreams';
+    display: none;
+
+  }
+
+
+  .skills-list {
+    font-family: "Miso";
+    list-style: circle;
+    margin-top: 10px;
+    font-size: 1.4em;
+    padding-left: 5px;
+    margin-bottom: 5px;
+  }
+
+
+  #awards-header {
+    font-size: 1.5em;
+    margin-bottom: 3px;
+    margin-top: 15px;
+
+  }
+  .award:hover {
+    font-size: 1.5em;
+  }
+
+  .awards-achievements {
+    list-style: circle;
+    font-family: "Miso";
+    font-size: 1.4em;
+    padding-left: 5px;
+  }
+
+  #close-hs {
+    display: none;
+    border: none;
+    background-color: white;
+    color: #253F62;
+    font-size: 14px;
+    padding: 0;
+    font-family: 'Miso';
+  }
+
+  .hs {
+    list-style: circle;
+    font-size: 1em;
+    display: none;
+  }
+
+  .high-school:hover {
+    font-size: 1.1em;
+  }
+
+  h5 {
+    text-align: center;
+
+  }
+
+
+  #interests-header {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+
+
+  .interests {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    flex-wrap: wrap;
+    width: 92%;
+    margin: 0 auto;
+  }
+
+
+  .hobby {
+    margin: 15px 15px 15px 15px;
+  }
+
+  .hobby:hover {
+    transform: scale(1.5);
+  }
+
+  #gloves {
+    height: 100px;
+    width: 100px;
+  }
+
+  #book {
+    height: 75px;
+    width: 75px;
+  }
+
+  #sci-fi {
+    height: 75px;
+    width: 75px;
+  }
+
+  #controller {
+    height: 75px;
+    width: 75px;
+  }
+
+  #chess {
+    height: 75px;
+    width: 75px;
+  }
+
+  #soccer {
+    height: 75px;
+    width: 75px;
+  }
+
+  #puzzle {
+    height: 75px;
+    width: 75px;
+  }
+
+  #journal {
+    height: 75px;
+    width: 75px;
+  }
+
+  footer {
+    margin-top: 15px;
+    text-align: center;
+    font-family: "Miso";
+    font-size: 20px;
+  }
+
+
+  .credits-dropdown {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .credit-btn {
+    border: none;
+    background-color: white;
+    color: #253F62;
+    font-size: 20px;
+    padding: 0;
+    font-family: 'Miso';
+  }
+
+  #close-credits {
+    display: none;
+  }
+
+  #credits {
+    font-size: 18px;
+    font-family: "Caviar Dreams";
+    color: #253F62;
+    margin: 5px 0 5px 0;
+  }
+
+  .icon-credits {
+    padding-left: 0px;
+    font-size: 18px;
+    display: none;
+    overflow: scroll;
+  }
+
+
+
+}
 
 
 
@@ -1564,10 +2110,6 @@ header {
 }
 
 
-
-section {
-
-}
 
 .main-resume {
   /* background-color: #253F62; */
@@ -1641,11 +2183,6 @@ ul {
   list-style: none;
 }
 
-#oberlin-logo {
-  height: 110px;
-  width: 110px;
-  margin: 0 auto;
-}
 
 
 .credit {
