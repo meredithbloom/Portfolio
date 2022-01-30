@@ -858,11 +858,11 @@
   }
 
   img.portrait {
-    width: 35%;
+    width: 50%;
     position: relative;
     border-radius: 300px;
     display: block;
-    left: 50%;
+    left: 46%;
     top: 7%;
     bottom: 90%;
     min-width: 220px;
