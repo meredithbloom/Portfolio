@@ -474,19 +474,19 @@
   #bio-header {
     text-align: center;
     color: #253F62;
-    font-size: 20px;
+    font-size: 35px;
     font-family: 'caviar_dreamsbold';
     margin: 15px 0 15px 0;
   }
 
   .bio-header {
     width: 80%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     margin: 0 auto;
   }
 
   .carousel-selector {
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -496,7 +496,7 @@
   .carousel-label {
     padding-left: 0px;
     display: flex;
-    font-family: "Miso";
+    font-family: "misoregular";
     color: #253F62;
   }
 
@@ -509,7 +509,7 @@
   /* bio category carousel */
 
   .category {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   #cat-1 {
@@ -532,12 +532,12 @@
 
   .main-bio {
     width: 100%;
-    border: 1px solid gold;
+
   }
 
+  /* main flex containers */
 
-
-  .project-flex {
+  .bio-flex-container {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -545,7 +545,7 @@
   }
 
 
-  article {
+  .carousel-container {
     width: 80%;
     display: flex;
     flex-flow: column wrap;
@@ -560,7 +560,9 @@
     color: white;
     /* border: 1px solid rgba(62,99,144,1); */
     border-radius: 50%;
-    font-size: 2em;
+    border: none;
+    font-size: 20px;
+    margin-right: 5px;
     background-color: rgba(62,99,144,1);
   }
 
@@ -570,40 +572,51 @@
     position: absolute;
     color: white;
     border-radius: 50%;
-    font-size: 2em;
+    border: none;
+    font-size: 20px;
+    margin-left: 5px;
     background-color: rgba(62,99,144,1);
   }
 
   /* carousel img container */
-  .project-img {
-    border: 5px solid rgba(62,99,144,1);
+  .carousel {
+    /* border: 2px solid rgba(62,99,144,1); */
     border-radius: 30px;
     max-width: 400px;
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     height: 300px;
     margin-top: 15px;
+    margin-bottom: 15px;
     display: flex;
     align-items: center;
 
   }
 
-  #carousel1 {
-    background-color: black;
+  #me {
+    display: flex;
+  }
+
+  #family {
+    display: none;
+  }
+
+  #friends {
+    display: none;
+  }
+
+  #values {
+    display: none;
   }
 
   .carousel-pic {
-    width: 100%;
+    max-width: 100%;
     position: relative;
+    border-radius: 15px;
+    max-height: 100%;
+    margin: 0 auto;
   }
 
-
-  h3 {
-    text-align: center;
-    font-size: 15px;
-    color: #253F62;
-    margin: 10px 0 5px 0;
-  }
 
   p {
     text-align: center;
@@ -611,44 +624,17 @@
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 13px;
+    font-size: 15px;
     color: #253F62;
   }
 
-  .divider {
-    width: 80%;
-    border: 1px solid grey;
-    margin: 0 auto;
-    margin-top: 10px;
-  }
-
-
-  h4 {
-    width: 100%;
-    color: #253F62;
-    margin: 0 auto;
-    margin-top: 15px;
-
-  }
-
-
-  h5 {
-    text-align: center;
-
-  }
-
-  footer {
-    margin-top: 15px;
-    text-align: center;
-    font-family: "misoregular";
-    font-size: 10px;
-  }
 
 }
 
 
 @media (min-width: 826px) and (max-width: 1030px) {
 
+  /* header with menu and contact info modal */
   /* header with menu and contact info modal */
   header {
     background-color: #253F62;
@@ -775,19 +761,19 @@
   #bio-header {
     text-align: center;
     color: #253F62;
-    font-size: 20px;
+    font-size: 35px;
     font-family: 'caviar_dreamsbold';
     margin: 15px 0 15px 0;
   }
 
   .bio-header {
     width: 80%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     margin: 0 auto;
   }
 
   .carousel-selector {
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -797,7 +783,7 @@
   .carousel-label {
     padding-left: 0px;
     display: flex;
-    font-family: "Miso";
+    font-family: "misoregular";
     color: #253F62;
   }
 
@@ -810,7 +796,7 @@
   /* bio category carousel */
 
   .category {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   #cat-1 {
@@ -833,12 +819,12 @@
 
   .main-bio {
     width: 100%;
-    border: 1px solid gold;
+
   }
 
+  /* main flex containers */
 
-
-  .project-flex {
+  .bio-flex-container {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -846,7 +832,7 @@
   }
 
 
-  article {
+  .carousel-container {
     width: 80%;
     display: flex;
     flex-flow: column wrap;
@@ -861,7 +847,9 @@
     color: white;
     /* border: 1px solid rgba(62,99,144,1); */
     border-radius: 50%;
-    font-size: 2em;
+    border: none;
+    font-size: 20px;
+    margin-right: 5px;
     background-color: rgba(62,99,144,1);
   }
 
@@ -871,40 +859,51 @@
     position: absolute;
     color: white;
     border-radius: 50%;
-    font-size: 2em;
+    border: none;
+    font-size: 20px;
+    margin-left: 5px;
     background-color: rgba(62,99,144,1);
   }
 
   /* carousel img container */
-  .project-img {
-    border: 5px solid rgba(62,99,144,1);
+  .carousel {
+    /* border: 2px solid rgba(62,99,144,1); */
     border-radius: 30px;
     max-width: 400px;
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     height: 300px;
     margin-top: 15px;
+    margin-bottom: 15px;
     display: flex;
     align-items: center;
 
   }
 
-  #carousel1 {
-    background-color: black;
+  #me {
+    display: flex;
+  }
+
+  #family {
+    display: none;
+  }
+
+  #friends {
+    display: none;
+  }
+
+  #values {
+    display: none;
   }
 
   .carousel-pic {
-    width: 100%;
+    max-width: 100%;
     position: relative;
+    border-radius: 15px;
+    max-height: 100%;
+    margin: 0 auto;
   }
 
-
-  h3 {
-    text-align: center;
-    font-size: 15px;
-    color: #253F62;
-    margin: 10px 0 5px 0;
-  }
 
   p {
     text-align: center;
@@ -912,37 +911,8 @@
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 13px;
+    font-size: 15px;
     color: #253F62;
-  }
-
-  .divider {
-    width: 80%;
-    border: 1px solid grey;
-    margin: 0 auto;
-    margin-top: 10px;
-  }
-
-
-  h4 {
-    width: 100%;
-    color: #253F62;
-    margin: 0 auto;
-    margin-top: 15px;
-
-  }
-
-
-  h5 {
-    text-align: center;
-
-  }
-
-  footer {
-    margin-top: 15px;
-    text-align: center;
-    font-family: "misoregular";
-    font-size: 10px;
   }
 
 
@@ -1079,19 +1049,19 @@
   #bio-header {
     text-align: center;
     color: #253F62;
-    font-size: 20px;
+    font-size: 35px;
     font-family: 'caviar_dreamsbold';
     margin: 15px 0 15px 0;
   }
 
   .bio-header {
     width: 80%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     margin: 0 auto;
   }
 
   .carousel-selector {
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1101,7 +1071,7 @@
   .carousel-label {
     padding-left: 0px;
     display: flex;
-    font-family: "Miso";
+    font-family: "misoregular";
     color: #253F62;
   }
 
@@ -1114,7 +1084,7 @@
   /* bio category carousel */
 
   .category {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   #cat-1 {
@@ -1137,12 +1107,12 @@
 
   .main-bio {
     width: 100%;
-    border: 1px solid gold;
+
   }
 
+  /* main flex containers */
 
-
-  .project-flex {
+  .bio-flex-container {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -1150,7 +1120,7 @@
   }
 
 
-  article {
+  .carousel-container {
     width: 80%;
     display: flex;
     flex-flow: column wrap;
@@ -1165,7 +1135,9 @@
     color: white;
     /* border: 1px solid rgba(62,99,144,1); */
     border-radius: 50%;
-    font-size: 2em;
+    border: none;
+    font-size: 20px;
+    margin-right: 5px;
     background-color: rgba(62,99,144,1);
   }
 
@@ -1175,40 +1147,51 @@
     position: absolute;
     color: white;
     border-radius: 50%;
-    font-size: 2em;
+    border: none;
+    font-size: 20px;
+    margin-left: 5px;
     background-color: rgba(62,99,144,1);
   }
 
   /* carousel img container */
-  .project-img {
-    border: 5px solid rgba(62,99,144,1);
+  .carousel {
+    /* border: 2px solid rgba(62,99,144,1); */
     border-radius: 30px;
     max-width: 400px;
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     height: 300px;
     margin-top: 15px;
+    margin-bottom: 15px;
     display: flex;
     align-items: center;
 
   }
 
-  #carousel1 {
-    background-color: black;
+  #me {
+    display: flex;
+  }
+
+  #family {
+    display: none;
+  }
+
+  #friends {
+    display: none;
+  }
+
+  #values {
+    display: none;
   }
 
   .carousel-pic {
-    width: 100%;
+    max-width: 100%;
     position: relative;
+    border-radius: 15px;
+    max-height: 100%;
+    margin: 0 auto;
   }
 
-
-  h3 {
-    text-align: center;
-    font-size: 15px;
-    color: #253F62;
-    margin: 10px 0 5px 0;
-  }
 
   p {
     text-align: center;
@@ -1216,44 +1199,12 @@
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 13px;
+    font-size: 15px;
     color: #253F62;
-  }
-
-  .divider {
-    width: 80%;
-    border: 1px solid grey;
-    margin: 0 auto;
-    margin-top: 10px;
-  }
-
-
-  h4 {
-    width: 100%;
-    color: #253F62;
-    margin: 0 auto;
-    margin-top: 15px;
-
-  }
-
-
-  h5 {
-    text-align: center;
-
-  }
-
-  footer {
-    margin-top: 15px;
-    text-align: center;
-    font-family: "misoregular";
-    font-size: 10px;
   }
 
 
 }
-
-
-
 
 
 body {
