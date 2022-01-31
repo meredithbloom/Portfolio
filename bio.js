@@ -35,8 +35,6 @@ const closeModal = () => {
 const carouselId = ['cat-1', 'cat-2', 'cat-3', 'cat-4'];
 const mainCarouselId = ['me', 'fam', 'friend', 'value'];
 
-const carouselValues = ['bio-pics/lol.jpg', 'bio-pics/lol2.jpg', 'bio-pics/autumnpepe.jpg', 'bio-pics/obamageodude.jpg']
-
 ////buttons to navigate between carousel categories
 const $prevCategoryBtn = $('#prev-carousel');
 const $nextCategoryBtn = $('#next-carousel');
@@ -141,9 +139,66 @@ const prevFam = () => {
 
 const carouselFriends = ['bio-pics/meandkyle2.JPG', 'bio-pics/meandstevie.jpg', 'bio-pics/meandjoyce.JPG', 'bio-pics/meandjada1.jpg', 'bio-pics/coolestpicever.jpg', 'bio-pics/meandcharliejoyce.jpg', 'bio-pics/meanddanielle.JPG', 'bio-pics/meandmel.JPG']
 
+const $nextFriendBtn = $('.forward#next-friends');
+const $backFriendBtn = $('.back#back-friends');
+const $currentFriendImg = $('.carousel-pic#friend');
+
+let numOfFriendImgs = carouselFriends.length;
+let maxIndexFriend = numOfFriendImgs - 1;
+let currentFriendIndex = 0;
+
+const nextFriend = () => {
+  if (currentFriendIndex < maxIndexFriend) {
+    currentFriendIndex++
+    $currentFriendImg.attr('src', carouselFriends[currentFriendIndex])
+  } else if (currentFriendIndex == maxIndexFriend) {
+    currentFriendIndex = 0;
+      $currentFriendImg.attr('src', carouselFriends[currentFriendIndex])
+  }
+}
+
+const prevFriend = () => {
+  if (currentFriendIndex > 0) {
+    currentFriendIndex--
+    $currentFriendImg.attr('src', carouselFriends[currentFriendIndex])
+  } else if (currentFriendIndex == 0) {
+    currentFriendIndex = maxIndexFriend;
+      $currentFriendImg.attr('src', carouselFriends[currentFriendIndex])
+  }
+}
 
 
+///// image carousel MEME/VALUES
+const carouselValues = ['bio-pics/lol.jpg', 'bio-pics/lol2.jpg', 'bio-pics/autumnpepe.jpg', 'bio-pics/obamageodude.jpg']
 
+const $nextValueBtn = $('.forward#next-value');
+const $backValueBtn = $('.back#back-value');
+const $currentValueImg = $('.carousel-pic#value');
+
+let numOfValues = carouselValues.length
+let maxIndexValue = numOfValues -1;
+let currentValueIndex = 0;
+
+
+const nextVal = () => {
+  if (currentValueIndex < maxIndexValue) {
+    currentValueIndex++
+    $currentValueImg.attr('src', carouselValues[currentValueIndex])
+  } else if (currentValueIndex == maxIndexValue) {
+    currentValueIndex = 0;
+    $currentValueImg.attr('src', carouselValues[currentValueIndex])
+  }
+}
+
+const prevValue = () => {
+  if (currentValueIndex > 0) {
+    currentValueIndex--
+    $currentValueImg.attr('src', carouselValues[currentValueIndex])
+  } else if (currentValueIndex == 0) {
+    currentValueIndex = maxIndexValue;
+    $currentValueImg.attr('src', carouselValues[currentValueIndex])
+  }
+}
 
 //////DOM load function
 $(() => {
@@ -167,6 +222,14 @@ $(() => {
   //FAMILY image carousel
   $nextFamBtn.on('click', nextFam);
   $backFamBtn.on('click', prevFam);
+
+  //FRIEND image carousel
+  $nextFriendBtn.on('click', nextFriend);
+  $backFriendBtn.on('click', prevFriend);
+
+  //MEME/VALUE image carousel
+  $nextValueBtn.on('click', nextVal);
+  $backValueBtn.on('click', prevValue);
 
 
 });

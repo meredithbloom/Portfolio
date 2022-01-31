@@ -320,7 +320,7 @@
   }
 
   #values {
-    display: none;
+    /* display: none; */
   }
 
   .carousel-pic {
