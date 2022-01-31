@@ -1,14 +1,4 @@
 
-const carousel1 = []
-const carousel2 = []
-const carousel3 = []
-
-
-
-
-
-
-
 /////code for main dropdown menu
 const $menubtn = $('#modal-menu-btn')
 const $menu = $('.dropdown-menu')
@@ -45,30 +35,6 @@ const closeModal = () => {
 
 
 
-///////// skills dropdown
-
-const $skillsList = $('.skills-list')
-const $skillsOpen = $('#skills-header')
-const $skillsClose = $('#close-skills')
-
-//
-// const showSkills = () => {
-//   $skillsList.css('display','block');
-//   $skillsClose.css('display', 'block');
-//   // $skillsOpen.css('display', 'none');
-// }
-//
-// const hideSkills = () => {
-//   $skillsList.css('display', 'none');
-//   $skillsClose.css('display', 'none');
-  // $skillsOpen.css('display', 'block')
-// }
-
-
-//////// achievements & awards dropdown
-
-
-
 ///////site credits dropdown
 const $openCredits = $('#open-credits')
 const $credits = $('.icon-credits')
@@ -89,31 +55,69 @@ const closeCredits = () => {
 
 
 
+////carousel images for project page
+
+const carouselCYOA = ['carouselpics/us1.jpeg', 'carouselpics/thetallgrass.jpeg', 'carouselpics/cube.jpeg', 'carouselpics/theshining.jpeg', 'carouselpics/itfollows.png']
+const carouselProjects = ['carouselpics/flowerbox1.png']
+const carouselPics = ['carouselpics/cowboybebop.jpeg', 'carouselpics/envy-pointing.jpeg', 'carouselpics/howl2.jpeg', 'carouselpics/Howls-Moving-Castle.jpeg', 'carouselpics/howlsmovingcastle1.jpg']
+
+
+
+/////image carousel PROJECT 1
+const $nextBtn1 = $('.forward#firstproject');
+const $backBtn1 = $('.back#firstproject');
+const $currentImg1 = $('.carousel-pic#1');
+
+let numOfImgs1 = carouselCYOA.length
+let maxIndex1 = numOfImgs1 - 1
+let currentImgIndex1 = 0;
+
+//next button PROJECT 1
+const nextImg1 = () => {
+  if (currentImgIndex1 < maxIndex1) {
+    currentImgIndex1++
+    $currentImg1.attr('src', carouselCYOA[currentImgIndex1])
+  } else if (currentImgIndex1 == maxIndex1) {
+    currentImgIndex1 = 0;
+    $currentImg1.attr('src', carouselCYOA[currentImgIndex1])
+  }
+}
+
+//back button PROJECT 1
+const prevImg1 = () => {
+  if (currentImgIndex1 > 0) {
+    currentImgIndex1--
+    $currentImg1.attr('src', carouselCYOA[currentImgIndex1])
+  } else if (currentImgIndex1 == 0) {
+    currentImgIndex1 = maxIndex1
+    $currentImg1.attr('src', carouselCYOA[currentImgIndex1])
+  }
+}
+
+
+/////image carousel PROJECT 2
+
+
 //////DOM load function
 $(() => {
-
 
   ////top menu jquery
   $menubtn.on('click', showMenu);
   $closeBtn.on('click', closeMenu);
 
-
-
-
-
   ///contact info info modal
   $openContact.on('click', showModal);
   $closeContact.on('click', closeModal);
-  ////open skills dropdown
-  // $skillsOpen.on('click', showSkills);
-  // $skillsClose.on('click', hideSkills)
-
-
-
 
   ///// credit footer jquery
   $openCredits.on('click', showCredits);
   $closeCredits.on('click', closeCredits);
+
+  ////image carousel
+  $nextBtn1.on('click', nextImg1);
+  $backBtn1.on('click', prevImg1);
+
+
 
 
 
