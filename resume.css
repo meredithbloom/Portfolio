@@ -343,7 +343,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    height: 200px;
+    height: 250px;
     margin-bottom: 25px;
 
   }
@@ -860,7 +860,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    height: 200px;
+    height: 250px;
 
   }
 
@@ -1378,7 +1378,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    height: 200px;
+    height: 250px;
 
   }
 
