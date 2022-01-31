@@ -33,7 +33,9 @@ const closeModal = () => {
 
 ////carousel CATEGORIES for bio page
 const carouselId = ['cat-1', 'cat-2', 'cat-3', 'cat-4'];
-const mainCarouselId = ['me', 'fam', 'friend', 'value'];
+
+///array of carousels by category - going to try and connect changing current category title to actually changing display value of different containers
+const mainCarouselId = ['#me', '#family', '#friends', '#values'];
 
 ////buttons to navigate between carousel categories
 const $prevCategoryBtn = $('#prev-carousel');
@@ -41,17 +43,26 @@ const $nextCategoryBtn = $('#next-carousel');
 
 let $currentCategoryIndex = 0;
 let $maxCategoryIndex = carouselId.length - 1
+// let $currentCategoryID = mainCarouselId[$currentCategoryIndex]
+let $currentContainer = $('.bio-flex-container').eq($currentCategoryIndex)
+console.log($currentContainer)
 
 //displays next bio category title
 const nextCategory = () => {
   if ($currentCategoryIndex < $maxCategoryIndex) {
+    //changes category header
     $('.category').eq($currentCategoryIndex).css('display','none');
+    //changes sub-carousel
+    $('.bio-flex-container').eq($currentCategoryIndex).css('display', 'none')
     $currentCategoryIndex++;
     $('.category').eq($currentCategoryIndex).css('display', 'block');
+    $('.bio-flex-container').eq($currentCategoryIndex).css('display', 'flex')
   } else if ($currentCategoryIndex == $maxCategoryIndex) {
     $('.category').eq($currentCategoryIndex).css('display','none');
+    $('.bio-flex-container').eq($currentCategoryIndex).css('display', 'none')
     $currentCategoryIndex = 0;
     $('.category').eq($currentCategoryIndex).css('display', 'block');
+    $('.bio-flex-container').eq($currentCategoryIndex).css('display', 'flex')
   }
 }
 
@@ -59,12 +70,16 @@ const nextCategory = () => {
 const prevCategory = () => {
   if ($currentCategoryIndex > 0) {
     $('.category').eq($currentCategoryIndex).css('display','none');
+    $('.bio-flex-container').eq($currentCategoryIndex).css('display', 'none');
     $currentCategoryIndex--;
     $('.category').eq($currentCategoryIndex).css('display', 'block');
+    $('.bio-flex-container').eq($currentCategoryIndex).css('display', 'flex');
   } else if ($currentCategoryIndex == 0) {
     $('.category').eq($currentCategoryIndex).css('display','none');
+    $('.bio-flex-container').eq($currentCategoryIndex).css('display', 'none');
     $currentCategoryIndex = $maxCategoryIndex;
     $('.category').eq($currentCategoryIndex).css('display', 'block');
+    $('.bio-flex-container').eq($currentCategoryIndex).css('display', 'flex');
   }
 }
 
@@ -190,7 +205,7 @@ const nextVal = () => {
   }
 }
 
-const prevValue = () => {
+const prevVal = () => {
   if (currentValueIndex > 0) {
     currentValueIndex--
     $currentValueImg.attr('src', carouselValues[currentValueIndex])
@@ -229,7 +244,7 @@ $(() => {
 
   //MEME/VALUE image carousel
   $nextValueBtn.on('click', nextVal);
-  $backValueBtn.on('click', prevValue);
+  $backValueBtn.on('click', prevVal);
 
 
 });

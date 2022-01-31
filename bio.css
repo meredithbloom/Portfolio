@@ -255,7 +255,6 @@
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-around;
-    border: 1px solid gold;
   }
 
 
@@ -308,19 +307,19 @@
   }
 
   #me {
-    /* display: show; */
+    display: flex;
   }
 
   #family {
-    /* display: none; */
+    display: none;
   }
 
   #friends {
-    /* display: none; */
+    display: none;
   }
 
   #values {
-    /* display: none; */
+    display: none;
   }
 
   .carousel-pic {
