@@ -207,8 +207,6 @@
     width: 100%;
   }
 
-
-
   .project-flex {
     display: flex;
     flex-flow: row wrap;
@@ -230,9 +228,8 @@
     align-self: flex-start;
     position: absolute;
     color: white;
-    /* border: 1px solid rgba(62,99,144,1); */
     border-radius: 50%;
-    font-size: 2em;
+    font-size: 15px;
     background-color: rgba(62,99,144,1);
   }
 
@@ -242,31 +239,28 @@
     position: absolute;
     color: white;
     border-radius: 50%;
-    font-size: 2em;
+    font-size: 15px;
     background-color: rgba(62,99,144,1);
   }
 
   /* carousel img container */
   .project-img {
-    border: 5px solid rgba(62,99,144,1);
     border-radius: 30px;
     max-width: 400px;
     width: 70%;
     margin: 0 auto;
-    height: 300px;
+    max-height: 300px;
     margin-top: 15px;
     display: flex;
     align-items: center;
 
   }
 
-  #carousel1 {
-    background-color: black;
-  }
 
   .carousel-pic {
     width: 100%;
     position: relative;
+    border-radius: 30px;
   }
 
 
@@ -292,6 +286,7 @@
     border: 1px solid grey;
     margin: 0 auto;
     margin-top: 10px;
+    margin-bottom: 10px;
   }
 
 
@@ -501,25 +496,24 @@
 
   /* carousel img container */
   .project-img {
-    border: 5px solid rgba(62,99,144,1);
+    /* border: 5px solid rgba(62,99,144,1); */
     border-radius: 30px;
-    max-width: 400px;
+    max-width: 600px;
     width: 70%;
     margin: 0 auto;
-    height: 300px;
+    height: 450px;
     margin-top: 15px;
     display: flex;
     align-items: center;
 
   }
 
-  #carousel1 {
-    background-color: black;
-  }
-
   .carousel-pic {
     width: 100%;
     position: relative;
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 
   h3 {
@@ -729,6 +723,10 @@
     justify-content: space-around;
   }
 
+  #project2 {
+    height: 500px;
+  }
+
   .back {
     align-self: flex-start;
     position: absolute;
@@ -751,7 +749,7 @@
 
   /* carousel img container */
   .project-img {
-    border: 5px solid rgba(62,99,144,1);
+    /* border: 5px solid rgba(62,99,144,1); */
     border-radius: 30px;
     max-width: 400px;
     width: 70%;
@@ -763,13 +761,11 @@
 
   }
 
-  #carousel1 {
-    background-color: black;
-  }
 
   .carousel-pic {
     width: 100%;
     position: relative;
+    border-radius: 30px;
   }
 
 
@@ -857,7 +853,7 @@
   }
 
   #contact-modal-open {
-    font-size: 18px;
+    font-size: 25px;
     border: none;
     font-family: "misoregular";
     color: white;
@@ -876,7 +872,7 @@
     font-family: 'misoregular';
     display: none;
     justify-content: space-around;
-    height: 40px;
+    height: 60px;
 
   }
 
@@ -891,7 +887,7 @@
   .dropdown-li {
     padding-left: 12px;
     padding-right: 12px;
-    font-size: 18px;
+    font-size: 25px;
 
   }
 
@@ -959,7 +955,7 @@
   h2 {
     text-align: center;
     color: #253F62;
-    font-size: 2em;
+    font-size: 50px;
     font-family: 'caviar_dreamsbold';
     margin: 15px 0 15px 0;
     align-self: center;
@@ -971,7 +967,8 @@
 
   /* houses all projects with carousels */
   .main-projects {
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
     /* display: flex;
     flex-flow: row wrap; */
   }
@@ -992,6 +989,7 @@
     align-content: space-around;
     align-items: center;
     justify-content: space-around;
+    height: 700px;
   }
 
   /* back button for carousel */
@@ -1017,34 +1015,38 @@
 
   /* carousel img container */
   .project-img {
-    border: 5px solid rgba(62,99,144,1);
+    /* border: 5px solid rgba(62,99,144,1); */
     border-radius: 30px;
-    max-width: 400px;
+    max-width: 700px;
     width: 70%;
     margin: 0 auto;
     height: 300px;
-    margin-top: 15px;
+    margin-top: 25px;
     display: flex;
     align-items: center;
 
   }
 
-  #carousel1 {
-    background-color: black;
+  #project2 {
+    height: 750px;
   }
+
 
   .carousel-pic {
     width: 100%;
     position: relative;
+    border-radius: 30px;
+    margin-top: 10px;
+    max-height: 500px;
   }
 
   /* project carousel title */
 
   h3 {
     text-align: center;
-    font-size: 1.2em;
+    font-size: 40px;
     color: #253F62;
-    margin: 10px 0 5px 0;
+    margin: 45px 0 5px 0;
   }
 
   /* image / project details, will change with carousel? */
@@ -1052,17 +1054,18 @@
     text-align: center;
     width: 80%;
     margin: 0 auto;
-    margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 1.4em;
+    font-size: 35px;
     color: #253F62;
   }
 
   .divider {
     width: 80%;
-    border: 1px solid grey;
+    height: 2px;
+    background-color: gray;
     margin: 0 auto;
     margin-top: 10px;
+    margin-bottom: 40px;
   }
 
 
