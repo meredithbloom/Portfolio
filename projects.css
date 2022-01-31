@@ -86,7 +86,7 @@
   }
 
   #close-menu-btn {
-      font-family: 'Miso';
+      font-family: 'misoregular';
       color: white;
       background-color: rgba(37,63,98,0);
       border-style: none;
@@ -104,7 +104,7 @@
   #contact-modal-open {
     font-size: 12px;
     border: none;
-    font-family: "Miso";
+    font-family: "misoregular";
     color: white;
     background-color: #253F62;
   }
@@ -117,7 +117,7 @@
   }
 
   .dropdown-menu {
-    font-family: 'Miso';
+    font-family: 'misoregular';
     display: none;
     justify-content: space-around;
     height: 40px;
@@ -125,7 +125,7 @@
   }
 
   .dropdown-ul {
-    font-family: 'Miso';
+    font-family: 'misoregular';
     display: flex;
     padding-left: 0px;
     width: 100%;
@@ -176,14 +176,14 @@
       margin: 20px 0px 20px 20px;
       text-align: center;
       color: white;
-      font-family: "Caviar Dreams";
+      font-family: "caviar_dreamsbold";
 
     }
 
     #modal-p {
       font-size: 1.3em;
       color: white;
-      font-family: "Caviar Dreams";
+      font-family: "caviar_dreamsregular";
       /* margin-top: 15px; */
     }
 
@@ -205,7 +205,7 @@
     text-align: center;
     color: #253F62;
     font-size: 20px;;
-    font-family: 'Caviar Dreams';
+    font-family: 'caviar_dreamsbold';
     margin: 15px 0 15px 0;
   }
 
@@ -308,7 +308,7 @@
   footer {
     margin-top: 15px;
     text-align: center;
-    font-family: "Miso";
+    font-family: "misoregular";
     font-size: 10px;
   }
 
@@ -328,7 +328,7 @@
   }
 
   #close-menu-btn {
-    font-family: 'Miso';
+    font-family: 'misoregular';
     color: white;
     background-color: rgba(37,63,98,0);
     border-style: none;
@@ -346,7 +346,7 @@
   #contact-modal-open {
     font-size: 18px;
     border: none;
-    font-family: "Miso";
+    font-family: "misoregular";
     color: white;
     background-color: #253F62;
   }
@@ -358,7 +358,7 @@
   }
 
   .dropdown-menu {
-    font-family: 'Miso';
+    font-family: 'misoregular';
     display: none;
     justify-content: space-around;
     height: 40px;
@@ -366,7 +366,7 @@
   }
 
   .dropdown-ul {
-    font-family: 'Miso';
+    font-family: 'misoregular';
     display: flex;
     padding-left: 0px;
     width: 100%;
@@ -417,7 +417,7 @@
     margin: 20px 0px 50px 20px;
     text-align: center;
     color: white;
-    font-family: "Caviar Dreams";
+    font-family: "caviar_dreamsbold";
 
   }
 
@@ -425,7 +425,7 @@
     font-size: 2em;
     margin-top: 15px;
     color: white;
-    font-family: "Caviar Dreams";
+    font-family: "caviar_dreamsregular";
   }
 
   a {
@@ -442,7 +442,7 @@
     text-align: center;
     color: #253F62;
     font-size: 2em;
-    font-family: 'Caviar Dreams';
+    font-family: 'caviar_dreamsbold';
     margin: 15px 0 15px 0;
     align-self: center;
   }
@@ -547,7 +547,7 @@
   footer {
     margin-top: 15px;
     text-align: center;
-    font-family: "Miso";
+    font-family: "misoregular";
     font-size: 10px;
   }
 }
@@ -565,7 +565,7 @@
   }
 
   #close-menu-btn {
-    font-family: 'Miso';
+    font-family: 'misoregular';
     color: white;
     background-color: rgba(37,63,98,0);
     border-style: none;
@@ -583,7 +583,7 @@
   #contact-modal-open {
     font-size: 18px;
     border: none;
-    font-family: "Miso";
+    font-family: "misoregular";
     color: white;
     background-color: #253F62;
   }
@@ -595,7 +595,7 @@
   }
 
   .dropdown-menu {
-    font-family: 'Miso';
+    font-family: 'misoregular';
     display: none;
     justify-content: space-around;
     height: 40px;
@@ -603,7 +603,7 @@
   }
 
   .dropdown-ul {
-    font-family: 'Miso';
+    font-family: 'misoregular';
     display: flex;
     padding-left: 0px;
     width: 100%;
@@ -654,7 +654,7 @@
     margin: 20px 0px 50px 20px;
     text-align: center;
     color: white;
-    font-family: "Caviar Dreams";
+    font-family: "caviar_dreamsbold";
 
   }
 
@@ -662,7 +662,7 @@
     font-size: 2em;
     margin-top: 15px;
     color: white;
-    font-family: "Caviar Dreams";
+    font-family: "caviar_dreamsregular";
   }
 
   a {
@@ -679,7 +679,7 @@
     text-align: center;
     color: #253F62;
     font-size: 2em;
-    font-family: 'Caviar Dreams';
+    font-family: 'caviar_dreamsbold';
     margin: 15px 0 15px 0;
     align-self: center;
   }
@@ -784,7 +784,7 @@
   footer {
     margin-top: 15px;
     text-align: center;
-    font-family: "Miso";
+    font-family: "misoregular";
     font-size: 10px;
   }
 
@@ -805,7 +805,7 @@
   }
 
   #close-menu-btn {
-    font-family: 'Miso';
+    font-family: 'misoregular';
     color: white;
     background-color: rgba(37,63,98,0);
     border-style: none;
@@ -823,7 +823,7 @@
   #contact-modal-open {
     font-size: 18px;
     border: none;
-    font-family: "Miso";
+    font-family: "misoregular";
     color: white;
     background-color: #253F62;
   }
@@ -835,7 +835,7 @@
   }
 
   .dropdown-menu {
-    font-family: 'Miso';
+    font-family: 'misoregular';
     display: none;
     justify-content: space-around;
     height: 40px;
@@ -843,7 +843,7 @@
   }
 
   .dropdown-ul {
-    font-family: 'Miso';
+    font-family: 'misoregular';
     display: flex;
     padding-left: 0px;
     width: 100%;
@@ -894,7 +894,7 @@
     margin: 20px 0px 50px 20px;
     text-align: center;
     color: white;
-    font-family: "Caviar Dreams";
+    font-family: "caviar_dreamsbold";
 
   }
 
@@ -902,7 +902,7 @@
     font-size: 2em;
     margin-top: 15px;
     color: white;
-    font-family: "Caviar Dreams";
+    font-family: "caviar_dreamsregular";
   }
 
   a {
@@ -919,7 +919,7 @@
     text-align: center;
     color: #253F62;
     font-size: 2em;
-    font-family: 'Caviar Dreams';
+    font-family: 'caviar_dreamsbold';
     margin: 15px 0 15px 0;
     align-self: center;
   }
@@ -1024,7 +1024,7 @@
   footer {
     margin-top: 15px;
     text-align: center;
-    font-family: "Miso";
+    font-family: "misoregular";
     font-size: 10px;
   }
 
@@ -1113,14 +1113,14 @@ header {
 
 
 #modal-menu-btn {
-  font-family: 'Miso';
+  font-family: 'misoregular';
   color: white;
   background-color: rgba(37,63,98,0);
   border-style: none;
 }
 
 #close-menu-btn {
-  font-family: 'Miso';
+  font-family: 'misoregular';
   color: white;
   background-color: rgba(37,63,98,0);
   border-style: none;
@@ -1131,7 +1131,7 @@ header {
 
 
 h1 {
-  font-family: 'SeasideResortNF';
+  font-family: 'seasideresortnfregular';
   text-align: center;
   color: white;
   margin: 0 auto;
@@ -1150,27 +1150,27 @@ ion-icon:hover {
 
 
 h2 {
-  font-family: 'Caviar Dreams';
+  font-family: 'caviar_dreamsbold';
 }
 
 h3 {
-  font-family: "Caviar Dreams";
+  font-family: "caviar_dreamsbold";
 }
 
 h4 {
-  font-family: 'Caviar Dreams';
+  font-family: 'caviar_dreamsbold';
   text-align: center;
   color: #253F62;
 }
 
 h5 {
-  font-family: 'Caviar Dreams';
+  font-family: 'caviar_dreamsbold';
   color: #253F62;
 
 }
 
 p {
-  font-family: 'Miso';
+  font-family: 'misoregular';
 }
 
 ul {
