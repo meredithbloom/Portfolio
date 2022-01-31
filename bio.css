@@ -187,7 +187,7 @@
   #bio-header {
     text-align: center;
     color: #253F62;
-    font-size: 20px;
+    font-size: 35px;
     font-family: 'caviar_dreamsbold';
     margin: 15px 0 15px 0;
   }
@@ -209,7 +209,7 @@
   .carousel-label {
     padding-left: 0px;
     display: flex;
-    font-family: "Miso";
+    font-family: "misoregular";
     color: #253F62;
   }
 
@@ -222,7 +222,7 @@
   /* bio category carousel */
 
   .category {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   #cat-1 {
@@ -294,7 +294,7 @@
 
   /* carousel img container */
   .carousel {
-    border: 2px solid rgba(62,99,144,1);
+    /* border: 2px solid rgba(62,99,144,1); */
     border-radius: 30px;
     max-width: 400px;
     width: 80%;
@@ -308,8 +308,11 @@
   }
 
   .carousel-pic {
-    width: 100%;
+    max-width: 100%;
     position: relative;
+    border-radius: 15px;
+    max-height: 100%;
+    margin: 0 auto;
   }
 
 
@@ -319,7 +322,7 @@
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 13px;
+    font-size: 15px;
     color: #253F62;
   }
 

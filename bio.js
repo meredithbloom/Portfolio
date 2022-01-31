@@ -34,11 +34,12 @@ const closeModal = () => {
 ////carousel CATEGORIES for bio page
 const carouselId = ['cat-1', 'cat-2', 'cat-3', 'cat-4'];
 const mainCarouselId = ['me', 'fam', 'friend', 'value'];
-const carouselMe = []
-const carouselFamily = []
-const carouselFriends = []
-const carouselValues = []
 
+
+const carouselFriends = ['bio-pics/meandkyle2.JPG', 'bio-pics/meandstevie.jpg', 'bio-pics/meandjoyce.JPG', 'bio-pics/meandjada1.jpg', 'bio-pics/coolestpicever.jpg', 'bio-pics/meandcharliejoyce.jpg', 'bio-pics/meanddanielle.JPG', 'bio-pics/meandmel.JPG']
+const carouselValues = ['bio-pics/lol.jpg', 'bio-pics/lol2.jpg', 'bio-pics/autumnpepe.jpg', 'bio-pics/obamageodude.jpg']
+
+////buttons to navigate between carousel categories
 const $prevCategoryBtn = $('#prev-carousel');
 const $nextCategoryBtn = $('#next-carousel');
 
@@ -72,14 +73,41 @@ const prevCategory = () => {
 }
 
 
-/////image carousel PROJECT 1
-const $nextBtn1 = $('.forward#firstproject');
-const $backBtn1 = $('.back#firstproject');
-const $currentImg1 = $('.carousel-pic#1');
+/////image carousel ME
+const carouselMe = ['bio-pics/grumpybabyme.JPG', 'bio-pics/mereading.JPG', 'bio-pics/meatlunch.JPG', 'bio-pics/animeme.JPG', 'bio-pics/momandme.jpg', 'bio-pics/wideeyedme.JPG','bio-pics/grumpypenguin.jpg', 'bio-pics/meanddad2.JPG', 'bio-pics/soccerteam.JPG']
 
-let numOfImgs1 = carouselMe.length
-let maxIndex1 = numOfImgs1 - 1
-let currentImgIndex1 = 0;
+const $nextMeBtn = $('.forward#next-me');
+const $backMeBtn = $('.back#back-me');
+const $currentMeImg = $('.carousel-pic#me');
+
+let numOfMeImgs = carouselMe.length
+let maxIndexMe = numOfMeImgs - 1
+let currentMeIndex = 0;
+
+const nextMe = () => {
+  if (currentMeIndex < maxIndexMe) {
+    currentMeIndex++
+    $currentMeImg.attr('src', carouselMe[currentMeIndex])
+  } else if (currentMeIndex == maxIndexMe) {
+    currentMeIndex = 0;
+    $currentMeImg.attr('src', carouselMe[currentMeIndex])
+  }
+}
+
+const prevMe = () => {
+  if (currentMeIndex > 0) {
+    currentMeIndex--
+    $currentMeImg.attr('src', carouselMe[currentMeIndex])
+  } else if (currentMeIndex == 0) {
+    currentMeIndex = maxIndexMe;
+    $currentMeImg.attr('src', carouselMe[currentMeIndex])
+  }
+}
+
+
+
+///image carousel FAMILY 
+const carouselFamily = ['bio-pics/wholefamstjohn.JPG', 'bio-pics/sibsstjohns.jpg', 'bio-pics/sibsmore.JPG', 'bio-pics/meanddad.JPG', 'bio-pics/meandben.JPG', 'bio-pics/meandbenobies.JPG','bio-pics/momanddad.jpg', 'bio-pics/sibs.JPG','bio-pics/dadssibs.jpg', 'bio-pics/dad.jpg', 'bio-pics/mama.JPG','bio-pics/momconfusedmeme.jpg','bio-pics/iamthesecretingredientmom.jpg', 'bio-pics/benmimosa.jpg', 'bio-pics/paternalgrandparents.jpg']
 
 
 //////DOM load function
@@ -97,7 +125,9 @@ $(() => {
   $nextCategoryBtn.on('click', nextCategory);
   $prevCategoryBtn.on('click', prevCategory);
 
-
+  ///ME image carousel
+  $nextMeBtn.on('click', nextMe);
+  $backMeBtn.on('click', prevMe);
 
 
 
