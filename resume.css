@@ -1,3 +1,84 @@
+@font-face {
+    font-family: 'caviar_dreamsbold';
+    src: url('webfontkit-20220130-221619/caviar_dreams_bold-webfont.woff2') format('woff2'),
+         url('webfontkit-20220130-221619/caviar_dreams_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'seasideresortnfregular';
+    src: url('webfontkit-20220130-221619/seasrn__-webfont.woff2')
+    format('woff2'),
+         url('webfontkit-20220130-221619/seasrn__-webfont.woff')
+         format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'caviar_dreamsbold_italic';
+    src: url('webfontkit-20220130-221619/caviardreams_bolditalic-webfont.woff2') format('woff2'),
+         url('webfontkit-20220130-221619/caviardreams_bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'caviar_dreamsitalic';
+    src: url('webfontkit-20220130-221619/caviardreams_italic-webfont.woff2') format('woff2'),
+         url('webfontkit-20220130-221619/caviardreams_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'caviar_dreamsregular';
+    src: url('webfontkit-20220130-221619/caviardreams-webfont.woff2')
+    format('woff2'),
+         url('webfontkit-20220130-221619/caviardreams-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'misoregular';
+    src: url('webfontkit-20220130-221619/miso-regular-webfont.woff2')
+    format('woff2'),
+         url('webfontkit-20220130-221619/miso-regular-webfont.woff')
+         format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+
+
+
+
 @media (max-width: 430px) {
 
   header {
@@ -10,7 +91,7 @@
   }
 
   #close-menu-btn {
-    font-family: 'Miso';
+    font-family: 'misoregular';
     color: white;
     background-color: rgba(37,63,98,0);
     border-style: none;
@@ -28,7 +109,7 @@
   #contact-modal-open {
     font-size: 12px;
     border: none;
-    font-family: "Miso";
+    font-family: "misoregular";
     color: white;
     background-color: #253F62;
   }
@@ -39,7 +120,7 @@
   }
 
   .dropdown-menu {
-    font-family: 'Miso';
+    font-family: 'misoregular';
     display: none;
     justify-content: space-around;
     height: 40px;
@@ -47,7 +128,7 @@
   }
 
   .dropdown-ul {
-    font-family: 'Miso';
+    font-family: 'misoregular';
     display: flex;
     padding-left: 0px;
     width: 100%;
@@ -108,7 +189,7 @@
   #modal-p {
     font-size: 1.3em;
     color: white;
-    font-family: "Caviar Dreams";
+    font-family: "caviar_dreamsregular";
     /* margin-top: 15px; */
   }
 
@@ -131,7 +212,7 @@
     text-align: center;
     color: #253F62;
     font-size: 2em;;
-    font-family: 'Caviar Dreams';
+    font-family: 'caviar_dreamsbold';
     margin: 0 auto;
     font-weight: bolder;
   }
@@ -207,7 +288,7 @@
 
   h6 {
     margin: 0 auto;
-    font-family: "Caviar Dreams";
+    font-family: "caviar_dreamsbold";
     font-size: 14px;
     color: #253F62;
   }
@@ -283,7 +364,7 @@
 
   .degree {
     color: #253F62;
-    font-family: 'Miso';
+    font-family: 'misoregular';
     position: relative;
     bottom: 20px;
     text-align: center;
@@ -305,7 +386,7 @@
   .certificate {
     text-align: center;
     position: relative;
-    font-family: 'Miso';
+    font-family: 'misoregular';
     bottom: 25px;
     z-index: 1;
     color: #253F62;
@@ -343,14 +424,14 @@
     color: #253F62;
     font-size: 12px;
     padding: 0;
-    font-family: 'Caviar Dreams';
+    font-family: 'caviar_dreamsregular';
     display: none;
 
   }
 
 
   .skills-list {
-    font-family: "Miso";
+    font-family: "misoregular";
     list-style: circle;
     margin-top: 10px;
     font-size: 1.2em;
@@ -370,7 +451,7 @@
 
   .awards-achievements {
     list-style: circle;
-    font-family: "Miso";
+    font-family: "misoregular";
     font-size: 1.2em;
     padding-left: 5px;
   }
@@ -382,7 +463,7 @@
     color: #253F62;
     font-size: 14px;
     padding: 0;
-    font-family: 'Miso';
+    font-family: 'misoregular';
   }
 
   .hs {
@@ -463,7 +544,7 @@
   footer {
     margin-top: 15px;
     text-align: center;
-    font-family: "Miso";
+    font-family: "misoregular";
     font-size: 10px;
   }
 
@@ -480,7 +561,7 @@
     color: #253F62;
     font-size: 12px;
     padding: 0;
-    font-family: 'Miso';
+    font-family: 'misoregular';
   }
 
   #close-credits {
@@ -489,7 +570,7 @@
 
   #credits {
     font-size: 12px;
-    font-family: "Caviar Dreams";
+    font-family: "caviar_dreamsregular";
     color: #253F62;
     margin: 5px 0 5px 0;
   }
@@ -517,7 +598,7 @@
   }
 
   #close-menu-btn {
-    font-family: 'Miso';
+    font-family: 'misoregular';
     color: white;
     background-color: rgba(37,63,98,0);
     border-style: none;
@@ -535,7 +616,7 @@
   #contact-modal-open {
     font-size: 20px;
     border: none;
-    font-family: "Miso";
+    font-family: "misoregular";
     color: white;
     background-color: #253F62;
   }
@@ -547,7 +628,7 @@
   }
 
   .dropdown-menu {
-    font-family: 'Miso';
+    font-family: 'misoregular';
     display: none;
     justify-content: space-around;
     height: 40px;
@@ -555,7 +636,7 @@
   }
 
   .dropdown-ul {
-    font-family: 'Miso';
+    font-family: 'misoregular';
     display: flex;
     padding-left: 0px;
     width: 100%;
@@ -613,7 +694,7 @@
     font-size: 2em;
     margin-top: 15px;
     color: white;
-    font-family: "Caviar Dreams";
+    font-family: "caviar_dreamsregular";
   }
 
   #modal-p:hover {
@@ -634,7 +715,7 @@
     text-align: center;
     color: #253F62;
     font-size: 2em;;
-    font-family: 'Caviar Dreams';
+    font-family: 'caviar_dreamsbold';
     margin: 0 auto;
     font-weight: bolder;
   }
@@ -724,7 +805,7 @@
 
   h6 {
     margin: 0 auto;
-    font-family: "Caviar Dreams";
+    font-family: "caviar_dreamsbold";
     font-size: 14px;
     color: #253F62;
   }
@@ -799,7 +880,7 @@
 
   .degree {
     color: #253F62;
-    font-family: 'Miso';
+    font-family: 'misoregular';
     position: relative;
     bottom: 20px;
     text-align: center;
@@ -821,7 +902,7 @@
   .certificate {
     text-align: center;
     position: relative;
-    font-family: 'Miso';
+    font-family: 'misoregular';
     bottom: 25px;
     z-index: 1;
     color: #253F62;
@@ -859,14 +940,14 @@
     color: #253F62;
     font-size: 12px;
     padding: 0;
-    font-family: 'Caviar Dreams';
+    font-family: 'caviar_dreamsregular';
     display: none;
 
   }
 
 
   .skills-list {
-    font-family: "Miso";
+    font-family: "misoregular";
     list-style: circle;
     margin-top: 10px;
     font-size: 1.2em;
@@ -886,7 +967,7 @@
 
   .awards-achievements {
     list-style: circle;
-    font-family: "Miso";
+    font-family: "misoregular";
     font-size: 1.2em;
     padding-left: 5px;
   }
@@ -898,7 +979,7 @@
     color: #253F62;
     font-size: 14px;
     padding: 0;
-    font-family: 'Miso';
+    font-family: 'misoregular';
   }
 
   .hs {
@@ -979,7 +1060,7 @@
   footer {
     margin-top: 15px;
     text-align: center;
-    font-family: "Miso";
+    font-family: "misoregular";
     font-size: 10px;
   }
 
@@ -996,7 +1077,7 @@
     color: #253F62;
     font-size: 12px;
     padding: 0;
-    font-family: 'Miso';
+    font-family: 'misoregular';
   }
 
   #close-credits {
@@ -1005,7 +1086,7 @@
 
   #credits {
     font-size: 12px;
-    font-family: "Caviar Dreams";
+    font-family: "caviar_dreamsregular";
     color: #253F62;
     margin: 5px 0 5px 0;
   }
@@ -1035,7 +1116,7 @@
   }
 
   #close-menu-btn {
-    font-family: 'Miso';
+    font-family: 'misoregular';
     color: white;
     background-color: rgba(37,63,98,0);
     border-style: none;
@@ -1053,7 +1134,7 @@
   #contact-modal-open {
     font-size: 20px;
     border: none;
-    font-family: "Miso";
+    font-family: "misoregular";
     color: white;
     background-color: #253F62;
   }
@@ -1065,7 +1146,7 @@
   }
 
   .dropdown-menu {
-    font-family: 'Miso';
+    font-family: 'misoregular';
     display: none;
     justify-content: space-around;
     height: 40px;
@@ -1073,7 +1154,7 @@
   }
 
   .dropdown-ul {
-    font-family: 'Miso';
+    font-family: 'misoregular';
     display: flex;
     padding-left: 0px;
     width: 100%;
@@ -1131,7 +1212,7 @@
     font-size: 2em;
     margin-top: 15px;
     color: white;
-    font-family: "Caviar Dreams";
+    font-family: "caviar_dreamsregular";
   }
 
   #modal-p:hover {
@@ -1152,7 +1233,7 @@
     text-align: center;
     color: #253F62;
     font-size: 2em;;
-    font-family: 'Caviar Dreams';
+    font-family: 'caviar_dreamsbold';
     margin: 0 auto;
     font-weight: bolder;
   }
@@ -1242,7 +1323,7 @@
 
   h6 {
     margin: 0 auto;
-    font-family: "Caviar Dreams";
+    font-family: "caviar_dreamsbold";
     font-size: 14px;
     color: #253F62;
   }
@@ -1317,7 +1398,7 @@
 
   .degree {
     color: #253F62;
-    font-family: 'Miso';
+    font-family: 'misoregular';
     position: relative;
     bottom: 20px;
     text-align: center;
@@ -1339,7 +1420,7 @@
   .certificate {
     text-align: center;
     position: relative;
-    font-family: 'Miso';
+    font-family: 'misoregular';
     bottom: 25px;
     z-index: 1;
     color: #253F62;
@@ -1377,14 +1458,14 @@
     color: #253F62;
     font-size: 12px;
     padding: 0;
-    font-family: 'Caviar Dreams';
+    font-family: 'caviar_dreamsregular';
     display: none;
 
   }
 
 
   .skills-list {
-    font-family: "Miso";
+    font-family: "misoregular";
     list-style: circle;
     margin-top: 10px;
     font-size: 1.2em;
@@ -1408,7 +1489,7 @@
 
   .awards-achievements {
     list-style: circle;
-    font-family: "Miso";
+    font-family: "misoregular";
     font-size: 1.2em;
     padding-left: 5px;
   }
@@ -1420,7 +1501,7 @@
     color: #253F62;
     font-size: 14px;
     padding: 0;
-    font-family: 'Miso';
+    font-family: 'misoregular';
   }
 
   .hs {
@@ -1507,7 +1588,7 @@
   footer {
     margin-top: 15px;
     text-align: center;
-    font-family: "Miso";
+    font-family: "misoregular";
     font-size: 10px;
   }
 
@@ -1524,7 +1605,7 @@
     color: #253F62;
     font-size: 12px;
     padding: 0;
-    font-family: 'Miso';
+    font-family: 'misoregular';
   }
 
   #close-credits {
@@ -1533,7 +1614,7 @@
 
   #credits {
     font-size: 12px;
-    font-family: "Caviar Dreams";
+    font-family: "caviar_dreamsregular";
     color: #253F62;
     margin: 5px 0 5px 0;
   }
@@ -1560,7 +1641,7 @@
   }
 
   #close-menu-btn {
-    font-family: 'Miso';
+    font-family: 'misoregular';
     color: white;
     background-color: rgba(37,63,98,0);
     border-style: none;
@@ -1578,7 +1659,7 @@
   #contact-modal-open {
     font-size: 20px;
     border: none;
-    font-family: "Miso";
+    font-family: "misoregular";
     color: white;
     background-color: #253F62;
   }
@@ -1590,7 +1671,7 @@
   }
 
   .dropdown-menu {
-    font-family: 'Miso';
+    font-family: 'misoregular';
     display: none;
     justify-content: space-around;
     height: 40px;
@@ -1598,7 +1679,7 @@
   }
 
   .dropdown-ul {
-    font-family: 'Miso';
+    font-family: 'misoregular';
     display: flex;
     padding-left: 0px;
     width: 100%;
@@ -1656,7 +1737,7 @@
     font-size: 2em;
     margin-top: 15px;
     color: white;
-    font-family: "Caviar Dreams";
+    font-family: "caviar_dreamsregular";
   }
 
   #modal-p:hover {
@@ -1677,7 +1758,7 @@
     text-align: center;
     color: #253F62;
     font-size: 2em;;
-    font-family: 'Caviar Dreams';
+    font-family: 'caviar_dreamsbold';
     margin: 0 auto;
     font-weight: bolder;
   }
@@ -1767,7 +1848,7 @@
 
   h6 {
     margin: 0 auto;
-    font-family: "Caviar Dreams";
+    font-family: "caviar_dreamsbold";
     font-size: 1.3em;
     color: #253F62;
   }
@@ -1846,7 +1927,7 @@
 
   .degree {
     color: #253F62;
-    font-family: 'Miso';
+    font-family: 'misoregular';
     position: relative;
     bottom: 20px;
     text-align: center;
@@ -1873,7 +1954,7 @@
   .certificate {
     text-align: center;
     position: relative;
-    font-family: 'Miso';
+    font-family: 'misoregular';
     bottom: 25px;
     z-index: 1;
     color: #253F62;
@@ -1915,14 +1996,14 @@
     color: #253F62;
     font-size: 1em;
     padding: 0;
-    font-family: 'Caviar Dreams';
+    font-family: 'caviar_dreamsregular';
     display: none;
 
   }
 
 
   .skills-list {
-    font-family: "Miso";
+    font-family: "misoregular";
     list-style: circle;
     margin-top: 10px;
     font-size: 1.4em;
@@ -1943,7 +2024,7 @@
 
   .awards-achievements {
     list-style: circle;
-    font-family: "Miso";
+    font-family: "misoregular";
     font-size: 1.4em;
     padding-left: 5px;
   }
@@ -1955,7 +2036,7 @@
     color: #253F62;
     font-size: 14px;
     padding: 0;
-    font-family: 'Miso';
+    font-family: 'misoregular';
   }
 
   .hs {
@@ -2043,7 +2124,7 @@
   footer {
     margin-top: 15px;
     text-align: center;
-    font-family: "Miso";
+    font-family: "misoregular";
     font-size: 20px;
   }
 
@@ -2060,7 +2141,7 @@
     color: #253F62;
     font-size: 20px;
     padding: 0;
-    font-family: 'Miso';
+    font-family: 'misoregular';
   }
 
   #close-credits {
@@ -2069,7 +2150,7 @@
 
   #credits {
     font-size: 18px;
-    font-family: "Caviar Dreams";
+    font-family: "caviar_dreamsregular";
     color: #253F62;
     margin: 5px 0 5px 0;
   }
@@ -2118,14 +2199,14 @@ header {
 }
 
 #modal-menu-btn {
-  font-family: 'Miso';
+  font-family: 'misoregular';
   color: white;
   background-color: rgba(37,63,98,0);
   border-style: none;
 }
 
 #close-menu-btn {
-  font-family: 'Miso';
+  font-family: 'misoregular';
   color: white;
   background-color: rgba(37,63,98,0);
   border-style: none;
@@ -2138,7 +2219,7 @@ div {
 }
 
 h1 {
-  font-family: 'SeasideResortNF';
+  font-family: 'seasideresortnfregular';
   text-align: center;
   color: white;
   margin: 0 auto;
@@ -2157,27 +2238,27 @@ ion-icon:hover {
 
 
 h2 {
-  font-family: 'Caviar Dreams';
+  font-family: 'caviar_dreamsbold';
 }
 
 h3 {
-  font-family: "Caviar Dreams";
+  font-family: "caviar_dreamsbold";
 }
 
 h4 {
-  font-family: 'Caviar Dreams';
+  font-family: 'caviar_dreamsbold';
   text-align: center;
   color: #253F62;
 }
 
 h5 {
-  font-family: 'Caviar Dreams';
+  font-family: 'caviar_dreamsbold';
   color: #253F62;
 
 }
 
 p {
-  font-family: 'Miso';
+  font-family: 'misoregular';
 }
 
 ul {

@@ -1,3 +1,80 @@
+@font-face {
+    font-family: 'caviar_dreamsbold';
+    src: url('webfontkit-20220130-221619/caviar_dreams_bold-webfont.woff2') format('woff2'),
+         url('webfontkit-20220130-221619/caviar_dreams_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'seasideresortnfregular';
+    src: url('webfontkit-20220130-221619/seasrn__-webfont.woff2')
+    format('woff2'),
+         url('webfontkit-20220130-221619/seasrn__-webfont.woff')
+         format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'caviar_dreamsbold_italic';
+    src: url('webfontkit-20220130-221619/caviardreams_bolditalic-webfont.woff2') format('woff2'),
+         url('webfontkit-20220130-221619/caviardreams_bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'caviar_dreamsitalic';
+    src: url('webfontkit-20220130-221619/caviardreams_italic-webfont.woff2') format('woff2'),
+         url('webfontkit-20220130-221619/caviardreams_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'caviar_dreamsregular';
+    src: url('webfontkit-20220130-221619/caviardreams-webfont.woff2')
+    format('woff2'),
+         url('webfontkit-20220130-221619/caviardreams-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'misoregular';
+    src: url('webfontkit-20220130-221619/miso-regular-webfont.woff2')
+    format('woff2'),
+         url('webfontkit-20220130-221619/miso-regular-webfont.woff')
+         format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
 @media (max-width: 430px) {
 
   header {
