@@ -63,7 +63,7 @@
 
   /* header with menu and contact info modal */
   header {
-    background-color: #253F62;
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 50%, rgba(238,174,202,1) 100%);
     display: flex;
     flex-flow: column wrap;
     align-content: center;
@@ -84,6 +84,7 @@
     /* margin-top: 15px; */
     align-self: flex-end;
     font-size: 18px;
+    background: rgba(238,174,202,0);
   }
 
   #contact-modal-open {
@@ -91,7 +92,7 @@
     border: none;
     font-family: "misoregular";
     color: white;
-    background-color: #253F62;
+    background-color:rgba(238,174,202,0);
   }
 
 
@@ -186,7 +187,6 @@
 
   #bio-header {
     text-align: center;
-    color: #253F62;
     font-size: 35px;
     font-family: 'caviar_dreamsbold';
     margin: 15px 0 15px 0;
@@ -197,6 +197,16 @@
     /* border: 1px solid green; */
     margin: 0 auto;
   }
+
+  .divider {
+    width: 85%;
+    height: 2px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 50%, rgba(238,174,202,1) 100%);
+  }
+
 
   .carousel-selector {
     /* border: 1px solid pink; */
@@ -223,6 +233,7 @@
 
   .category {
     font-size: 30px;
+    color: rgba(148,187,233,1)
   }
 
   #cat-1 {
@@ -259,7 +270,7 @@
 
 
   .carousel-container {
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-flow: column wrap;
     align-content: space-around;
@@ -267,20 +278,18 @@
     justify-content: space-around;
   }
 
-  .back {
+  #prev-carousel {
     align-self: flex-start;
     position: absolute;
     color: white;
-    /* border: 1px solid rgba(62,99,144,1); */
     border-radius: 50%;
     border: none;
     font-size: 20px;
     margin-right: 5px;
-    background-color: rgba(62,99,144,1);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
   }
 
-  /* forward button for carousel  */
-  .forward {
+  #next-carousel {
     align-self: flex-end;
     position: absolute;
     color: white;
@@ -288,12 +297,35 @@
     border: none;
     font-size: 20px;
     margin-left: 5px;
-    background-color: rgba(62,99,144,1);
+    background: linear-gradient(90deg, rgba(148,187,233,1) 0%, rgba(238,174,202,1) 100%);
+  }
+
+
+  .back {
+    align-self: flex-start;
+    position: absolute;
+    color: rgba(238,174,202,1);
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+    margin-right: 5px;
+    background-color: white;
+  }
+
+  /* forward button for carousel  */
+  .forward {
+    align-self: flex-end;
+    position: absolute;
+    color: rgba(238,174,202,1);
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+    margin-left: 5px;
+    background-color: white;
   }
 
   /* carousel img container */
   .carousel {
-    /* border: 2px solid rgba(62,99,144,1); */
     border-radius: 30px;
     max-width: 400px;
     width: 80%;
@@ -337,8 +369,8 @@
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 15px;
-    color: #253F62;
+    font-size: 1.5em;
+    color: rgba(148,187,233,1);
   }
 
 
@@ -350,7 +382,7 @@
 
   /* header with menu and contact info modal */
   header {
-    background-color: #253F62;
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 50%, rgba(238,174,202,1) 100%);
     display: flex;
     flex-flow: column wrap;
     align-content: center;
@@ -371,14 +403,15 @@
     /* margin-top: 15px; */
     align-self: flex-end;
     font-size: 18px;
+    background: rgba(238,174,202,0);
   }
 
   #contact-modal-open {
-    font-size: 12px;
+    font-size: 15px;
     border: none;
     font-family: "misoregular";
     color: white;
-    background-color: #253F62;
+    background-color:rgba(238,174,202,0);
   }
 
 
@@ -409,7 +442,7 @@
   .dropdown-li {
     padding-left: 12px;
     padding-right: 12px;
-    font-size: 12px;
+    font-size: 15px;
 
   }
 
@@ -473,7 +506,6 @@
 
   #bio-header {
     text-align: center;
-    color: #253F62;
     font-size: 35px;
     font-family: 'caviar_dreamsbold';
     margin: 15px 0 15px 0;
@@ -484,6 +516,16 @@
     /* border: 1px solid green; */
     margin: 0 auto;
   }
+
+  .divider {
+    width: 85%;
+    height: 2px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 50%, rgba(238,174,202,1) 100%);
+  }
+
 
   .carousel-selector {
     /* border: 1px solid pink; */
@@ -509,7 +551,8 @@
   /* bio category carousel */
 
   .category {
-    font-size: 30px;
+    font-size: 40px;
+    color: rgba(148,187,233,1)
   }
 
   #cat-1 {
@@ -546,7 +589,7 @@
 
 
   .carousel-container {
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-flow: column wrap;
     align-content: space-around;
@@ -554,38 +597,59 @@
     justify-content: space-around;
   }
 
-  .back {
+  #prev-carousel {
     align-self: flex-start;
     position: absolute;
     color: white;
-    /* border: 1px solid rgba(62,99,144,1); */
     border-radius: 50%;
     border: none;
-    font-size: 20px;
+    font-size: 30px;
     margin-right: 5px;
-    background-color: rgba(62,99,144,1);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  }
+
+  #next-carousel {
+    align-self: flex-end;
+    position: absolute;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    font-size: 30px;
+    margin-left: 5px;
+    background: linear-gradient(90deg, rgba(148,187,233,1) 0%, rgba(238,174,202,1) 100%);
+  }
+
+
+  .back {
+    align-self: flex-start;
+    position: absolute;
+    color: rgba(238,174,202,1);
+    border-radius: 50%;
+    border: none;
+    font-size: 35px;
+    /* margin-right: 5px; */
+    background-color: white;
   }
 
   /* forward button for carousel  */
   .forward {
     align-self: flex-end;
     position: absolute;
-    color: white;
+    color: rgba(238,174,202,1);
     border-radius: 50%;
     border: none;
-    font-size: 20px;
-    margin-left: 5px;
-    background-color: rgba(62,99,144,1);
+    font-size: 35px;
+    /* margin-left: 5px; */
+    background-color: white;
   }
 
   /* carousel img container */
   .carousel {
-    /* border: 2px solid rgba(62,99,144,1); */
     border-radius: 30px;
-    max-width: 400px;
+    max-width: 600px;
     width: 80%;
     margin: 0 auto;
-    height: 300px;
+    height: 450px;
     margin-top: 15px;
     margin-bottom: 15px;
     display: flex;
@@ -624,8 +688,8 @@
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 15px;
-    color: #253F62;
+    font-size: 30px;
+    color: rgba(148,187,233,1);
   }
 
 
@@ -635,9 +699,8 @@
 @media (min-width: 826px) and (max-width: 1030px) {
 
   /* header with menu and contact info modal */
-  /* header with menu and contact info modal */
   header {
-    background-color: #253F62;
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 50%, rgba(238,174,202,1) 100%);
     display: flex;
     flex-flow: column wrap;
     align-content: center;
@@ -658,14 +721,15 @@
     /* margin-top: 15px; */
     align-self: flex-end;
     font-size: 18px;
+    background: rgba(238,174,202,0);
   }
 
   #contact-modal-open {
-    font-size: 12px;
+    font-size: 15px;
     border: none;
     font-family: "misoregular";
     color: white;
-    background-color: #253F62;
+    background-color:rgba(238,174,202,0);
   }
 
 
@@ -696,7 +760,7 @@
   .dropdown-li {
     padding-left: 12px;
     padding-right: 12px;
-    font-size: 12px;
+    font-size: 15px;
 
   }
 
@@ -760,7 +824,6 @@
 
   #bio-header {
     text-align: center;
-    color: #253F62;
     font-size: 35px;
     font-family: 'caviar_dreamsbold';
     margin: 15px 0 15px 0;
@@ -771,6 +834,19 @@
     /* border: 1px solid green; */
     margin: 0 auto;
   }
+
+  .divider {
+    width: 90%;
+    height: 2px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 50%, rgba(238,174,202,1) 100%);
+  }
+
+  /* button:hover {
+    transform: scale(1.5);
+  } */
 
   .carousel-selector {
     /* border: 1px solid pink; */
@@ -796,7 +872,8 @@
   /* bio category carousel */
 
   .category {
-    font-size: 30px;
+    font-size: 40px;
+    color: rgba(148,187,233,1)
   }
 
   #cat-1 {
@@ -833,7 +910,7 @@
 
 
   .carousel-container {
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-flow: column wrap;
     align-content: space-around;
@@ -841,39 +918,60 @@
     justify-content: space-around;
   }
 
-  .back {
+  #prev-carousel {
     align-self: flex-start;
     position: absolute;
     color: white;
-    /* border: 1px solid rgba(62,99,144,1); */
     border-radius: 50%;
     border: none;
-    font-size: 20px;
+    font-size: 30px;
     margin-right: 5px;
-    background-color: rgba(62,99,144,1);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  }
+
+  #next-carousel {
+    align-self: flex-end;
+    position: absolute;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    font-size: 30px;
+    margin-left: 5px;
+    background: linear-gradient(90deg, rgba(148,187,233,1) 0%, rgba(238,174,202,1) 100%);
+  }
+
+
+  .back {
+    align-self: flex-start;
+    position: absolute;
+    color: rgba(238,174,202,1);
+    border-radius: 50%;
+    border: none;
+    font-size: 35px;
+    /* margin-right: 5px; */
+    background-color: white;
   }
 
   /* forward button for carousel  */
   .forward {
     align-self: flex-end;
     position: absolute;
-    color: white;
+    color: rgba(238,174,202,1);
     border-radius: 50%;
     border: none;
-    font-size: 20px;
-    margin-left: 5px;
-    background-color: rgba(62,99,144,1);
+    font-size: 35px;
+    /* margin-left: 5px; */
+    background-color: white;
   }
 
   /* carousel img container */
   .carousel {
-    /* border: 2px solid rgba(62,99,144,1); */
     border-radius: 30px;
-    max-width: 400px;
+    max-width: 800px;
     width: 80%;
     margin: 0 auto;
-    height: 300px;
-    margin-top: 15px;
+    height: 550px;
+    margin-top: 30px;
     margin-bottom: 15px;
     display: flex;
     align-items: center;
@@ -911,9 +1009,10 @@
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 15px;
-    color: #253F62;
+    font-size: 30px;
+    color: rgba(148,187,233,1);
   }
+
 
 
 }
@@ -922,10 +1021,9 @@
 @media (min-width: 1031px) {
 
 
-
   /* header with menu and contact info modal */
   header {
-    background-color: #253F62;
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 50%, rgba(238,174,202,1) 100%);
     display: flex;
     flex-flow: column wrap;
     align-content: center;
@@ -945,21 +1043,23 @@
   #modal-menu-btn {
     /* margin-top: 15px; */
     align-self: flex-end;
-    font-size: 18px;
+    font-size: 30px;
+    background: rgba(238,174,202,0);
+    height: 2em;
   }
 
   #contact-modal-open {
-    font-size: 12px;
+    font-size: 25px;
     border: none;
     font-family: "misoregular";
     color: white;
-    background-color: #253F62;
+    background-color:rgba(238,174,202,0);
   }
 
 
 
   h1{
-    font-size: 18px;
+    font-size: 50px;
     color: white;
   }
 
@@ -969,7 +1069,7 @@
     font-family: 'misoregular';
     display: none;
     justify-content: space-around;
-    height: 40px;
+    height: 60px;
 
   }
 
@@ -984,8 +1084,12 @@
   .dropdown-li {
     padding-left: 12px;
     padding-right: 12px;
-    font-size: 12px;
+    font-size: 25px;
 
+  }
+
+  .dropdown-li:hover {
+    transform: scale(1.2);
   }
 
   /* contact info modal  */
@@ -1039,6 +1143,7 @@
     text-decoration: none;
   }
 
+
   ul {
     list-style: none;
     font-size: 14px;
@@ -1048,8 +1153,7 @@
 
   #bio-header {
     text-align: center;
-    color: #253F62;
-    font-size: 35px;
+    font-size: 70px;
     font-family: 'caviar_dreamsbold';
     margin: 15px 0 15px 0;
   }
@@ -1058,6 +1162,19 @@
     width: 80%;
     /* border: 1px solid green; */
     margin: 0 auto;
+  }
+
+  .divider {
+    width: 90%;
+    height: 2px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 50%, rgba(238,174,202,1) 100%);
+  }
+
+  button:hover {
+    transform: scale(1.5);
   }
 
   .carousel-selector {
@@ -1084,7 +1201,8 @@
   /* bio category carousel */
 
   .category {
-    font-size: 30px;
+    font-size: 60px;
+    color: rgba(148,187,233,1)
   }
 
   #cat-1 {
@@ -1129,40 +1247,60 @@
     justify-content: space-around;
   }
 
-  .back {
+  #prev-carousel {
     align-self: flex-start;
     position: absolute;
     color: white;
-    /* border: 1px solid rgba(62,99,144,1); */
     border-radius: 50%;
     border: none;
-    font-size: 20px;
+    font-size: 45px;
     margin-right: 5px;
-    background-color: rgba(62,99,144,1);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  }
+
+  #next-carousel {
+    align-self: flex-end;
+    position: absolute;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    font-size: 45px;
+    margin-left: 5px;
+    background: linear-gradient(90deg, rgba(148,187,233,1) 0%, rgba(238,174,202,1) 100%);
+  }
+
+
+  .back {
+    align-self: flex-start;
+    position: absolute;
+    color: rgba(238,174,202,1);
+    border-radius: 50%;
+    border: none;
+    font-size: 50px;
+    /* margin-right: 5px; */
+    background-color: white;
   }
 
   /* forward button for carousel  */
   .forward {
     align-self: flex-end;
     position: absolute;
-    color: white;
+    color: rgba(238,174,202,1);
     border-radius: 50%;
     border: none;
-    font-size: 20px;
-    margin-left: 5px;
-    background-color: rgba(62,99,144,1);
+    font-size: 50px;
+    /* margin-left: 5px; */
+    background-color: white;
   }
 
   /* carousel img container */
   .carousel {
-    /* border: 2px solid rgba(62,99,144,1); */
     border-radius: 30px;
-    max-width: 400px;
+    max-width: 1000px;
     width: 80%;
     margin: 0 auto;
-    height: 300px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    height: 800px;
+    margin-top: 30px;
     display: flex;
     align-items: center;
 
@@ -1198,10 +1336,11 @@
     width: 80%;
     margin: 0 auto;
     margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 15px;
-    color: #253F62;
+    margin-bottom: 50px;
+    font-size: 45px;
+    color: rgba(148,187,233,1);
   }
+
 
 
 }
@@ -1214,10 +1353,8 @@ body {
 header {
   position: sticky; top: 0;
   z-index: 1;
-  /* background-color: rgba(37,63,98,0);
-  height: 100px; */
+  background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 50%, rgba(238,174,202,1) 100%);
 }
-
 
 
 #modal-menu-btn {
@@ -1249,26 +1386,29 @@ h1 {
 
 h2 {
   font-family: 'caviar_dreamsbold';
+  color: rgba(148,187,233,1);
 }
 
 h3 {
   font-family: "caviar_dreamsbold";
+  color: rgba(148,187,233,1);
 }
 
 h4 {
   font-family: 'caviar_dreamsbold';
   text-align: center;
-  color: #253F62;
+  color: rgba(148,187,233,1);
 }
 
 h5 {
   font-family: 'caviar_dreamsbold';
-  color: #253F62;
+  color: rgba(148,187,233,1);
 
 }
 
 p {
   font-family: 'misoregular';
+  color: rgba(148,187,233,1);
 }
 
 ul {

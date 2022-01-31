@@ -118,7 +118,7 @@ const prevMe = () => {
 
 
 ///image carousel FAMILY
-const carouselFamily = ['bio-pics/wholefamstjohn.JPG', 'bio-pics/sibsstjohns.jpg', 'bio-pics/sibsmore.JPG', 'bio-pics/meanddad.JPG', 'bio-pics/meandben.JPG', 'bio-pics/meandbenobies.JPG','bio-pics/momanddad.jpg', 'bio-pics/sibs.JPG','bio-pics/dadssibs.jpg', 'bio-pics/dad.jpg', 'bio-pics/mama.JPG','bio-pics/momconfusedmeme.jpg','bio-pics/iamthesecretingredientmom.jpg', 'bio-pics/benmimosa.jpg', 'bio-pics/paternalgrandparents.jpg']
+const carouselFamily = ['bio-pics/wholefamstjohn.JPG', 'bio-pics/sibsstjohns.jpg', 'bio-pics/sibsmore.JPG', 'bio-pics/meanddad.JPG', 'bio-pics/meandben.JPG', 'bio-pics/meandbenobies.JPG','bio-pics/momanddad.jpg', 'bio-pics/sibs.JPG','bio-pics/dadssibs.jpg', 'bio-pics/dad.jpg', 'bio-pics/mama.JPG','bio-pics/momconfusedmeme.jpg','bio-pics/iamthesecretingredientmom.jpg', 'bio-pics/benmimosa.jpg', 'bio-pics/paternalgrandparents.jpg', 'bio-pics/allcousins.JPG']
 
 
 const $nextFamBtn = $('.forward#next-fam');
@@ -152,7 +152,7 @@ const prevFam = () => {
 
 ////image carousel FRIENDS
 
-const carouselFriends = ['bio-pics/meandkyle2.JPG', 'bio-pics/meandstevie.jpg', 'bio-pics/meandjoyce.JPG', 'bio-pics/meandjada1.jpg', 'bio-pics/coolestpicever.jpg', 'bio-pics/meandcharliejoyce.jpg', 'bio-pics/meanddanielle.JPG', 'bio-pics/meandmel.JPG']
+const carouselFriends = ['bio-pics/meandstevie.jpg', 'bio-pics/meandkyle2.JPG', 'bio-pics/meandjoyce.JPG', 'bio-pics/meandjada1.jpg', 'bio-pics/coolestpicever.jpg', 'bio-pics/meandcharliejoyce.jpg', 'bio-pics/meanddanielle.JPG', 'bio-pics/meandmel.JPG']
 
 const $nextFriendBtn = $('.forward#next-friends');
 const $backFriendBtn = $('.back#back-friends');
