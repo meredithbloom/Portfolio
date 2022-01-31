@@ -263,6 +263,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     height: 200px;
+    margin-bottom: 25px;
 
   }
 
@@ -270,7 +271,7 @@
     height: 130px;
     display: inline-block;
     width: 110px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
   }
 
   #oberlin-logo {

@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'Caviar Dreams';
+  src: url('fonts/CaviarDreams.ttf')
+}
+
+@font-face {
+  font-family:'SeasideResortNF';
+  src: url('fonts/SEASRN__.ttf')
+}
+
+@font-face {
+  font-family: 'Miso';
+  src: url('fonts/miso-regular.otf');
+}
+
 @media (max-width: 430px) {
 
   header {
