@@ -1,0 +1,1347 @@
+@font-face {
+    font-family: 'caviar_dreamsbold';
+    src: url('webfontkit-20220130-221619/caviar_dreams_bold-webfont.woff2') format('woff2'),
+         url('webfontkit-20220130-221619/caviar_dreams_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'seasideresortnfregular';
+    src: url('webfontkit-20220130-221619/seasrn__-webfont.woff2')
+    format('woff2'),
+         url('webfontkit-20220130-221619/seasrn__-webfont.woff')
+         format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'caviar_dreamsbold_italic';
+    src: url('webfontkit-20220130-221619/caviardreams_bolditalic-webfont.woff2') format('woff2'),
+         url('webfontkit-20220130-221619/caviardreams_bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'caviar_dreamsitalic';
+    src: url('webfontkit-20220130-221619/caviardreams_italic-webfont.woff2') format('woff2'),
+         url('webfontkit-20220130-221619/caviardreams_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'caviar_dreamsregular';
+    src: url('webfontkit-20220130-221619/caviardreams-webfont.woff2')
+    format('woff2'),
+         url('webfontkit-20220130-221619/caviardreams-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'misoregular';
+    src: url('webfontkit-20220130-221619/miso-regular-webfont.woff2')
+    format('woff2'),
+         url('webfontkit-20220130-221619/miso-regular-webfont.woff')
+         format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@media (max-width: 430px) {
+
+
+  /* header with menu and contact info modal */
+  header {
+    background-color: #253F62;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    align-items: center;
+  }
+
+  #close-menu-btn {
+      font-family: 'misoregular';
+      color: white;
+      background-color: rgba(37,63,98,0);
+      border-style: none;
+      display: none;
+      font-size: 25px;
+    }
+
+
+  #modal-menu-btn {
+    /* margin-top: 15px; */
+    align-self: flex-end;
+    font-size: 18px;
+  }
+
+  #contact-modal-open {
+    font-size: 12px;
+    border: none;
+    font-family: "misoregular";
+    color: white;
+    background-color: #253F62;
+  }
+
+
+
+  h1{
+    font-size: 18px;
+    color: white;
+  }
+
+  /* dropdown menu */
+
+  .dropdown-menu {
+    font-family: 'misoregular';
+    display: none;
+    justify-content: space-around;
+    height: 40px;
+
+  }
+
+  .dropdown-ul {
+    font-family: 'misoregular';
+    display: flex;
+    padding-left: 0px;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .dropdown-li {
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 12px;
+
+  }
+
+  /* contact info modal  */
+  #contact-modal {
+      background-color: rgba(37,63,98,0.7);
+      position: fixed;
+      top: 0;
+      right: 0;
+      color: white;
+      height: 100%;
+      width: 100%;
+      z-index: 1;
+      overflow: auto;
+      text-align: center;
+      display: none;
+      justify-content: center;
+      align-content: space-around;
+      align-items: center;
+    }
+
+    #modal-textbook {
+      height: 25%;
+      width: 50%;
+      border-radius: 50px;
+      margin-top: 150px;
+      z-index: 2;
+    }
+
+
+    #modal-h5 {
+      margin-top: 20px;
+      display: block;
+      font-size: 1.5em;
+      /* margin-bottom: 10px; */
+      margin: 20px 0px 20px 20px;
+      text-align: center;
+      color: white;
+      font-family: "caviar_dreamsbold";
+
+    }
+
+    #modal-p {
+      font-size: 1.3em;
+      color: white;
+      font-family: "caviar_dreamsregular";
+      /* margin-top: 15px; */
+    }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  ul {
+    list-style: none;
+    font-size: 14px;
+  }
+
+  /* Bio headline */
+
+  #bio-header {
+    text-align: center;
+    color: #253F62;
+    font-size: 20px;
+    font-family: 'caviar_dreamsbold';
+    margin: 15px 0 15px 0;
+  }
+
+  .bio-header {
+    width: 80%;
+    /* border: 1px solid green; */
+    margin: 0 auto;
+  }
+
+  .carousel-selector {
+    /* border: 1px solid pink; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .carousel-label {
+    padding-left: 0px;
+    display: flex;
+    font-family: "Miso";
+    color: #253F62;
+  }
+
+  .carousel-selector > button {
+    font-size: 15px;
+    border: none;
+  }
+
+  /* bio section menu */
+  /* bio category carousel */
+
+  .category {
+    font-size: 20px;
+  }
+
+  #cat-1 {
+    display: block;
+  }
+
+  #cat-2 {
+    display: none;
+  }
+
+  #cat-3 {
+    display: none;
+  }
+
+  #cat-4 {
+    display: none;
+  }
+
+  /* main part of the bio page, where image carousels are housed */
+
+  .main-bio {
+    width: 100%;
+
+  }
+
+  /* main flex containers */
+
+  .bio-flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid gold;
+  }
+
+
+  .carousel-container {
+    width: 80%;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-around;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .back {
+    align-self: flex-start;
+    position: absolute;
+    color: white;
+    /* border: 1px solid rgba(62,99,144,1); */
+    border-radius: 50%;
+    font-size: 2em;
+    background-color: rgba(62,99,144,1);
+  }
+
+  /* forward button for carousel  */
+  .forward {
+    align-self: flex-end;
+    position: absolute;
+    color: white;
+    border-radius: 50%;
+    font-size: 2em;
+    background-color: rgba(62,99,144,1);
+  }
+
+  /* carousel img container */
+  .carousel {
+    border: 3px solid rgba(62,99,144,1);
+    border-radius: 30px;
+    max-width: 400px;
+    width: 70%;
+    margin: 0 auto;
+    height: 300px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+
+  }
+
+  #carousel1 {
+    background-color: black;
+  }
+
+  .carousel-pic {
+    width: 100%;
+    position: relative;
+  }
+
+
+  h3 {
+    text-align: center;
+    font-size: 15px;
+    color: #253F62;
+    margin: 10px 0 5px 0;
+  }
+
+  p {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #253F62;
+  }
+
+  .divider {
+    width: 80%;
+    border: 1px solid grey;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+
+  h4 {
+    width: 100%;
+    color: #253F62;
+    margin: 0 auto;
+    margin-top: 15px;
+
+  }
+
+
+  h5 {
+    text-align: center;
+
+  }
+
+  footer {
+    margin-top: 15px;
+    text-align: center;
+    font-family: "misoregular";
+    font-size: 10px;
+  }
+
+
+}
+
+@media (min-width: 431px) and (max-width: 825px) {
+
+
+  /* header with menu and contact info modal */
+  header {
+    background-color: #253F62;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    align-items: center;
+  }
+
+  #close-menu-btn {
+      font-family: 'misoregular';
+      color: white;
+      background-color: rgba(37,63,98,0);
+      border-style: none;
+      display: none;
+      font-size: 25px;
+    }
+
+
+  #modal-menu-btn {
+    /* margin-top: 15px; */
+    align-self: flex-end;
+    font-size: 18px;
+  }
+
+  #contact-modal-open {
+    font-size: 12px;
+    border: none;
+    font-family: "misoregular";
+    color: white;
+    background-color: #253F62;
+  }
+
+
+
+  h1{
+    font-size: 18px;
+    color: white;
+  }
+
+  /* dropdown menu */
+
+  .dropdown-menu {
+    font-family: 'misoregular';
+    display: none;
+    justify-content: space-around;
+    height: 40px;
+
+  }
+
+  .dropdown-ul {
+    font-family: 'misoregular';
+    display: flex;
+    padding-left: 0px;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .dropdown-li {
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 12px;
+
+  }
+
+  /* contact info modal  */
+  #contact-modal {
+      background-color: rgba(37,63,98,0.7);
+      position: fixed;
+      top: 0;
+      right: 0;
+      color: white;
+      height: 100%;
+      width: 100%;
+      z-index: 1;
+      overflow: auto;
+      text-align: center;
+      display: none;
+      justify-content: center;
+      align-content: space-around;
+      align-items: center;
+    }
+
+    #modal-textbook {
+      height: 25%;
+      width: 50%;
+      border-radius: 50px;
+      margin-top: 150px;
+      z-index: 2;
+    }
+
+
+    #modal-h5 {
+      margin-top: 20px;
+      display: block;
+      font-size: 1.5em;
+      /* margin-bottom: 10px; */
+      margin: 20px 0px 20px 20px;
+      text-align: center;
+      color: white;
+      font-family: "caviar_dreamsbold";
+
+    }
+
+    #modal-p {
+      font-size: 1.3em;
+      color: white;
+      font-family: "caviar_dreamsregular";
+      /* margin-top: 15px; */
+    }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  ul {
+    list-style: none;
+    font-size: 14px;
+  }
+
+  /* Bio headline */
+
+  #bio-header {
+    text-align: center;
+    color: #253F62;
+    font-size: 20px;
+    font-family: 'caviar_dreamsbold';
+    margin: 15px 0 15px 0;
+  }
+
+  .bio-header {
+    width: 80%;
+    border: 1px solid green;
+    margin: 0 auto;
+  }
+
+  .carousel-selector {
+    border: 1px solid pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .carousel-label {
+    padding-left: 0px;
+    display: flex;
+    font-family: "Miso";
+    color: #253F62;
+  }
+
+  .carousel-selector > button {
+    font-size: 15px;
+    border: none;
+  }
+
+  /* bio section menu */
+  /* bio category carousel */
+
+  .category {
+    font-size: 20px;
+  }
+
+  #cat-1 {
+    display: block;
+  }
+
+  #cat-2 {
+    display: none;
+  }
+
+  #cat-3 {
+    display: none;
+  }
+
+  #cat-4 {
+    display: none;
+  }
+
+  /* main part of the bio page, where image carousels are housed */
+
+  .main-bio {
+    width: 100%;
+    border: 1px solid gold;
+  }
+
+
+
+  .project-flex {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+
+  article {
+    width: 80%;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-around;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .back {
+    align-self: flex-start;
+    position: absolute;
+    color: white;
+    /* border: 1px solid rgba(62,99,144,1); */
+    border-radius: 50%;
+    font-size: 2em;
+    background-color: rgba(62,99,144,1);
+  }
+
+  /* forward button for carousel  */
+  .forward {
+    align-self: flex-end;
+    position: absolute;
+    color: white;
+    border-radius: 50%;
+    font-size: 2em;
+    background-color: rgba(62,99,144,1);
+  }
+
+  /* carousel img container */
+  .project-img {
+    border: 5px solid rgba(62,99,144,1);
+    border-radius: 30px;
+    max-width: 400px;
+    width: 70%;
+    margin: 0 auto;
+    height: 300px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+
+  }
+
+  #carousel1 {
+    background-color: black;
+  }
+
+  .carousel-pic {
+    width: 100%;
+    position: relative;
+  }
+
+
+  h3 {
+    text-align: center;
+    font-size: 15px;
+    color: #253F62;
+    margin: 10px 0 5px 0;
+  }
+
+  p {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #253F62;
+  }
+
+  .divider {
+    width: 80%;
+    border: 1px solid grey;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+
+  h4 {
+    width: 100%;
+    color: #253F62;
+    margin: 0 auto;
+    margin-top: 15px;
+
+  }
+
+
+  h5 {
+    text-align: center;
+
+  }
+
+  footer {
+    margin-top: 15px;
+    text-align: center;
+    font-family: "misoregular";
+    font-size: 10px;
+  }
+
+}
+
+
+@media (min-width: 826px) and (max-width: 1030px) {
+
+  /* header with menu and contact info modal */
+  header {
+    background-color: #253F62;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    align-items: center;
+  }
+
+  #close-menu-btn {
+      font-family: 'misoregular';
+      color: white;
+      background-color: rgba(37,63,98,0);
+      border-style: none;
+      display: none;
+      font-size: 25px;
+    }
+
+
+  #modal-menu-btn {
+    /* margin-top: 15px; */
+    align-self: flex-end;
+    font-size: 18px;
+  }
+
+  #contact-modal-open {
+    font-size: 12px;
+    border: none;
+    font-family: "misoregular";
+    color: white;
+    background-color: #253F62;
+  }
+
+
+
+  h1{
+    font-size: 18px;
+    color: white;
+  }
+
+  /* dropdown menu */
+
+  .dropdown-menu {
+    font-family: 'misoregular';
+    display: none;
+    justify-content: space-around;
+    height: 40px;
+
+  }
+
+  .dropdown-ul {
+    font-family: 'misoregular';
+    display: flex;
+    padding-left: 0px;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .dropdown-li {
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 12px;
+
+  }
+
+  /* contact info modal  */
+  #contact-modal {
+      background-color: rgba(37,63,98,0.7);
+      position: fixed;
+      top: 0;
+      right: 0;
+      color: white;
+      height: 100%;
+      width: 100%;
+      z-index: 1;
+      overflow: auto;
+      text-align: center;
+      display: none;
+      justify-content: center;
+      align-content: space-around;
+      align-items: center;
+    }
+
+    #modal-textbook {
+      height: 25%;
+      width: 50%;
+      border-radius: 50px;
+      margin-top: 150px;
+      z-index: 2;
+    }
+
+
+    #modal-h5 {
+      margin-top: 20px;
+      display: block;
+      font-size: 1.5em;
+      /* margin-bottom: 10px; */
+      margin: 20px 0px 20px 20px;
+      text-align: center;
+      color: white;
+      font-family: "caviar_dreamsbold";
+
+    }
+
+    #modal-p {
+      font-size: 1.3em;
+      color: white;
+      font-family: "caviar_dreamsregular";
+      /* margin-top: 15px; */
+    }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  ul {
+    list-style: none;
+    font-size: 14px;
+  }
+
+  /* Bio headline */
+
+  #bio-header {
+    text-align: center;
+    color: #253F62;
+    font-size: 20px;
+    font-family: 'caviar_dreamsbold';
+    margin: 15px 0 15px 0;
+  }
+
+  .bio-header {
+    width: 80%;
+    border: 1px solid green;
+    margin: 0 auto;
+  }
+
+  .carousel-selector {
+    border: 1px solid pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .carousel-label {
+    padding-left: 0px;
+    display: flex;
+    font-family: "Miso";
+    color: #253F62;
+  }
+
+  .carousel-selector > button {
+    font-size: 15px;
+    border: none;
+  }
+
+  /* bio section menu */
+  /* bio category carousel */
+
+  .category {
+    font-size: 20px;
+  }
+
+  #cat-1 {
+    display: block;
+  }
+
+  #cat-2 {
+    display: none;
+  }
+
+  #cat-3 {
+    display: none;
+  }
+
+  #cat-4 {
+    display: none;
+  }
+
+  /* main part of the bio page, where image carousels are housed */
+
+  .main-bio {
+    width: 100%;
+    border: 1px solid gold;
+  }
+
+
+
+  .project-flex {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+
+  article {
+    width: 80%;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-around;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .back {
+    align-self: flex-start;
+    position: absolute;
+    color: white;
+    /* border: 1px solid rgba(62,99,144,1); */
+    border-radius: 50%;
+    font-size: 2em;
+    background-color: rgba(62,99,144,1);
+  }
+
+  /* forward button for carousel  */
+  .forward {
+    align-self: flex-end;
+    position: absolute;
+    color: white;
+    border-radius: 50%;
+    font-size: 2em;
+    background-color: rgba(62,99,144,1);
+  }
+
+  /* carousel img container */
+  .project-img {
+    border: 5px solid rgba(62,99,144,1);
+    border-radius: 30px;
+    max-width: 400px;
+    width: 70%;
+    margin: 0 auto;
+    height: 300px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+
+  }
+
+  #carousel1 {
+    background-color: black;
+  }
+
+  .carousel-pic {
+    width: 100%;
+    position: relative;
+  }
+
+
+  h3 {
+    text-align: center;
+    font-size: 15px;
+    color: #253F62;
+    margin: 10px 0 5px 0;
+  }
+
+  p {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #253F62;
+  }
+
+  .divider {
+    width: 80%;
+    border: 1px solid grey;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+
+  h4 {
+    width: 100%;
+    color: #253F62;
+    margin: 0 auto;
+    margin-top: 15px;
+
+  }
+
+
+  h5 {
+    text-align: center;
+
+  }
+
+  footer {
+    margin-top: 15px;
+    text-align: center;
+    font-family: "misoregular";
+    font-size: 10px;
+  }
+
+
+}
+
+
+@media (min-width: 1031px) {
+
+
+
+  /* header with menu and contact info modal */
+  header {
+    background-color: #253F62;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    align-items: center;
+  }
+
+  #close-menu-btn {
+      font-family: 'misoregular';
+      color: white;
+      background-color: rgba(37,63,98,0);
+      border-style: none;
+      display: none;
+      font-size: 25px;
+    }
+
+
+  #modal-menu-btn {
+    /* margin-top: 15px; */
+    align-self: flex-end;
+    font-size: 18px;
+  }
+
+  #contact-modal-open {
+    font-size: 12px;
+    border: none;
+    font-family: "misoregular";
+    color: white;
+    background-color: #253F62;
+  }
+
+
+
+  h1{
+    font-size: 18px;
+    color: white;
+  }
+
+  /* dropdown menu */
+
+  .dropdown-menu {
+    font-family: 'misoregular';
+    display: none;
+    justify-content: space-around;
+    height: 40px;
+
+  }
+
+  .dropdown-ul {
+    font-family: 'misoregular';
+    display: flex;
+    padding-left: 0px;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .dropdown-li {
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 12px;
+
+  }
+
+  /* contact info modal  */
+  #contact-modal {
+      background-color: rgba(37,63,98,0.7);
+      position: fixed;
+      top: 0;
+      right: 0;
+      color: white;
+      height: 100%;
+      width: 100%;
+      z-index: 1;
+      overflow: auto;
+      text-align: center;
+      display: none;
+      justify-content: center;
+      align-content: space-around;
+      align-items: center;
+    }
+
+    #modal-textbook {
+      height: 25%;
+      width: 50%;
+      border-radius: 50px;
+      margin-top: 150px;
+      z-index: 2;
+    }
+
+
+    #modal-h5 {
+      margin-top: 20px;
+      display: block;
+      font-size: 1.5em;
+      /* margin-bottom: 10px; */
+      margin: 20px 0px 20px 20px;
+      text-align: center;
+      color: white;
+      font-family: "caviar_dreamsbold";
+
+    }
+
+    #modal-p {
+      font-size: 1.3em;
+      color: white;
+      font-family: "caviar_dreamsregular";
+      /* margin-top: 15px; */
+    }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  ul {
+    list-style: none;
+    font-size: 14px;
+  }
+
+  /* Bio headline */
+
+  #bio-header {
+    text-align: center;
+    color: #253F62;
+    font-size: 20px;
+    font-family: 'caviar_dreamsbold';
+    margin: 15px 0 15px 0;
+  }
+
+  .bio-header {
+    width: 80%;
+    border: 1px solid green;
+    margin: 0 auto;
+  }
+
+  .carousel-selector {
+    border: 1px solid pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .carousel-label {
+    padding-left: 0px;
+    display: flex;
+    font-family: "Miso";
+    color: #253F62;
+  }
+
+  .carousel-selector > button {
+    font-size: 15px;
+    border: none;
+  }
+
+  /* bio section menu */
+  /* bio category carousel */
+
+  .category {
+    font-size: 20px;
+  }
+
+  #cat-1 {
+    display: block;
+  }
+
+  #cat-2 {
+    display: none;
+  }
+
+  #cat-3 {
+    display: none;
+  }
+
+  #cat-4 {
+    display: none;
+  }
+
+  /* main part of the bio page, where image carousels are housed */
+
+  .main-bio {
+    width: 100%;
+    border: 1px solid gold;
+  }
+
+
+
+  .project-flex {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+
+  article {
+    width: 80%;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-around;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .back {
+    align-self: flex-start;
+    position: absolute;
+    color: white;
+    /* border: 1px solid rgba(62,99,144,1); */
+    border-radius: 50%;
+    font-size: 2em;
+    background-color: rgba(62,99,144,1);
+  }
+
+  /* forward button for carousel  */
+  .forward {
+    align-self: flex-end;
+    position: absolute;
+    color: white;
+    border-radius: 50%;
+    font-size: 2em;
+    background-color: rgba(62,99,144,1);
+  }
+
+  /* carousel img container */
+  .project-img {
+    border: 5px solid rgba(62,99,144,1);
+    border-radius: 30px;
+    max-width: 400px;
+    width: 70%;
+    margin: 0 auto;
+    height: 300px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+
+  }
+
+  #carousel1 {
+    background-color: black;
+  }
+
+  .carousel-pic {
+    width: 100%;
+    position: relative;
+  }
+
+
+  h3 {
+    text-align: center;
+    font-size: 15px;
+    color: #253F62;
+    margin: 10px 0 5px 0;
+  }
+
+  p {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #253F62;
+  }
+
+  .divider {
+    width: 80%;
+    border: 1px solid grey;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+
+  h4 {
+    width: 100%;
+    color: #253F62;
+    margin: 0 auto;
+    margin-top: 15px;
+
+  }
+
+
+  h5 {
+    text-align: center;
+
+  }
+
+  footer {
+    margin-top: 15px;
+    text-align: center;
+    font-family: "misoregular";
+    font-size: 10px;
+  }
+
+
+}
+
+
+
+
+
+body {
+  margin: 0 auto;
+}
+
+header {
+  position: sticky; top: 0;
+  z-index: 1;
+  /* background-color: rgba(37,63,98,0);
+  height: 100px; */
+}
+
+
+
+#modal-menu-btn {
+  font-family: 'misoregular';
+  color: white;
+  background-color: rgba(37,63,98,0);
+  border-style: none;
+}
+
+#close-menu-btn {
+  font-family: 'misoregular';
+  color: white;
+  background-color: rgba(37,63,98,0);
+  border-style: none;
+  display: none;
+
+}
+
+
+
+h1 {
+  font-family: 'seasideresortnfregular';
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+
+h2 {
+  font-family: 'caviar_dreamsbold';
+}
+
+h3 {
+  font-family: "caviar_dreamsbold";
+}
+
+h4 {
+  font-family: 'caviar_dreamsbold';
+  text-align: center;
+  color: #253F62;
+}
+
+h5 {
+  font-family: 'caviar_dreamsbold';
+  color: #253F62;
+
+}
+
+p {
+  font-family: 'misoregular';
+}
+
+ul {
+  list-style: none;
+}
+
+
+.credit {
+  color: #37649d;
+  display: block;
+}
