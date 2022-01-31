@@ -35,8 +35,6 @@ const closeModal = () => {
 const carouselId = ['cat-1', 'cat-2', 'cat-3', 'cat-4'];
 const mainCarouselId = ['me', 'fam', 'friend', 'value'];
 
-
-const carouselFriends = ['bio-pics/meandkyle2.JPG', 'bio-pics/meandstevie.jpg', 'bio-pics/meandjoyce.JPG', 'bio-pics/meandjada1.jpg', 'bio-pics/coolestpicever.jpg', 'bio-pics/meandcharliejoyce.jpg', 'bio-pics/meanddanielle.JPG', 'bio-pics/meandmel.JPG']
 const carouselValues = ['bio-pics/lol.jpg', 'bio-pics/lol2.jpg', 'bio-pics/autumnpepe.jpg', 'bio-pics/obamageodude.jpg']
 
 ////buttons to navigate between carousel categories
@@ -106,8 +104,45 @@ const prevMe = () => {
 
 
 
-///image carousel FAMILY 
+///image carousel FAMILY
 const carouselFamily = ['bio-pics/wholefamstjohn.JPG', 'bio-pics/sibsstjohns.jpg', 'bio-pics/sibsmore.JPG', 'bio-pics/meanddad.JPG', 'bio-pics/meandben.JPG', 'bio-pics/meandbenobies.JPG','bio-pics/momanddad.jpg', 'bio-pics/sibs.JPG','bio-pics/dadssibs.jpg', 'bio-pics/dad.jpg', 'bio-pics/mama.JPG','bio-pics/momconfusedmeme.jpg','bio-pics/iamthesecretingredientmom.jpg', 'bio-pics/benmimosa.jpg', 'bio-pics/paternalgrandparents.jpg']
+
+
+const $nextFamBtn = $('.forward#next-fam');
+const $backFamBtn = $('.back#back-fam');
+const $currentFamImg = $('.carousel-pic#fam');
+
+
+let numofFamImgs = carouselFamily.length
+let maxIndexFam = numofFamImgs - 1;
+let currentFamIndex = 0;
+
+const nextFam = () => {
+  if (currentFamIndex < maxIndexFam) {
+    currentFamIndex++
+    $currentFamImg.attr('src', carouselFamily[currentFamIndex])
+  } else if (currentFamIndex == maxIndexFam) {
+    currentFamIndex = 0;
+    $currentFamImg.attr('src', carouselFamily[currentFamIndex])
+  }
+}
+
+const prevFam = () => {
+  if (currentFamIndex > 0) {
+    currentFamIndex--
+    $currentFamImg.attr('src', carouselFamily[currentFamIndex])
+  } else if (currentFamIndex == 0) {
+    currentFamIndex = maxIndexFam;
+    $currentFamImg.attr('src', carouselFamily[currentFamIndex])
+  }
+}
+
+////image carousel FRIENDS
+
+const carouselFriends = ['bio-pics/meandkyle2.JPG', 'bio-pics/meandstevie.jpg', 'bio-pics/meandjoyce.JPG', 'bio-pics/meandjada1.jpg', 'bio-pics/coolestpicever.jpg', 'bio-pics/meandcharliejoyce.jpg', 'bio-pics/meanddanielle.JPG', 'bio-pics/meandmel.JPG']
+
+
+
 
 
 //////DOM load function
@@ -129,9 +164,9 @@ $(() => {
   $nextMeBtn.on('click', nextMe);
   $backMeBtn.on('click', prevMe);
 
-
-
-
+  //FAMILY image carousel
+  $nextFamBtn.on('click', nextFam);
+  $backFamBtn.on('click', prevFam);
 
 
 });

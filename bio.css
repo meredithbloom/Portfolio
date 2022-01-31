@@ -307,6 +307,22 @@
 
   }
 
+  #me {
+    /* display: show; */
+  }
+
+  #family {
+    /* display: none; */
+  }
+
+  #friends {
+    /* display: none; */
+  }
+
+  #values {
+    display: none;
+  }
+
   .carousel-pic {
     max-width: 100%;
     position: relative;
