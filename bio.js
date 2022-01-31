@@ -32,7 +32,8 @@ const closeModal = () => {
 }
 
 ////carousel CATEGORIES for bio page
-const carouselId = ['cat-1', 'cat-2', 'cat-3', 'cat-4']
+const carouselId = ['cat-1', 'cat-2', 'cat-3', 'cat-4'];
+const mainCarouselId = ['me', 'fam', 'friend', 'value'];
 const carouselMe = []
 const carouselFamily = []
 const carouselFriends = []
