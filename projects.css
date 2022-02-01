@@ -94,7 +94,7 @@
     border: none;
     font-family: "misoregular";
     color: white;
-    background-color: #253F62;
+    background-color: rgba(37,63,98,0);
   }
 
 
@@ -191,8 +191,8 @@
 
   h2 {
     text-align: center;
-    color: #253F62;
-    font-size: 20px;;
+    /* color: #253F62; */
+    font-size: 20px;
     font-family: 'caviar_dreamsbold';
     margin: 15px 0 15px 0;
   }
@@ -268,7 +268,7 @@
   h3 {
     text-align: center;
     font-size: 15px;
-    color: #253F62;
+    /* color: #253F62; */
     margin: 20px 0 5px 0;
   }
 
@@ -292,7 +292,7 @@
 
   h4 {
     width: 100%;
-    color: #253F62;
+    /* color: #253F62; */
     margin: 0 auto;
     margin-top: 15px;
 
@@ -437,7 +437,7 @@
 
   h2 {
     text-align: center;
-    color: #253F62;
+    /* color: #253F62; */
     font-size: 2em;
     font-family: 'caviar_dreamsbold';
     margin: 15px 0 15px 0;
@@ -476,7 +476,6 @@
     align-self: flex-start;
     position: absolute;
     color: white;
-    /* border: 1px solid rgba(62,99,144,1); */
     border-radius: 50%;
     font-size: 2em;
     background-color: rgba(62,99,144,1);
@@ -517,7 +516,7 @@
   h3 {
     text-align: center;
     font-size: 1.2em;
-    color: #253F62;
+    /* color: #253F62; */
     margin: 10px 0 5px 0;
   }
 
@@ -528,7 +527,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 1.2em;
-    color: #253F62;
+    /* color: #253F62; */
   }
 
   .divider {
@@ -946,7 +945,6 @@
   /* projects header */
   h2 {
     text-align: center;
-    color: #253F62;
     font-size: 50px;
     font-family: 'caviar_dreamsbold';
     margin: 15px 0 15px 0;
