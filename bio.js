@@ -87,10 +87,11 @@ const prevCategory = () => {
 /////image carousel ME
 const carouselMe = ['bio-pics/grumpybabyme.JPG', 'bio-pics/mereading.JPG', 'bio-pics/meatlunch.JPG', 'bio-pics/animeme.JPG', 'bio-pics/momandme.jpg', 'bio-pics/wideeyedme.JPG','bio-pics/grumpypenguin.jpg', 'bio-pics/meanddad2.JPG', 'bio-pics/soccerteam.JPG']
 
+
 const $nextMeBtn = $('.forward#next-me');
 const $backMeBtn = $('.back#back-me');
 const $currentMeImg = $('.carousel-pic#me');
-const $meSwipeDiv = $('#bio-me-carousel')
+
 
 let numOfMeImgs = carouselMe.length
 let maxIndexMe = numOfMeImgs - 1

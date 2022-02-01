@@ -67,7 +67,7 @@ I'm still a little shaky on how to make height of an element responsive. I had p
 
 I wanted to add some more text on the Bio page, ideally connected to the image carousels (the text below the images would change as the user moved between images). In the interest of time, I focused on the core functionality. I think I'd try to go about this in the same way I looped through the category options and image carousels simultaneously - by aligning related info across different arrays, and just assigning them the same index, so whenever the index changed, everything changed with it. I think I could probably use objects to pull the info from one array. I initially tried this, but was having trouble assigning the key-values to html elements.
 
-I'd like to have included some more interesting animations. I stuck with pretty simple transform: scale(). The only other "transform" css I used flipped the writing icon on my homepage because I'm left-handed, lol, and I couldn't find a left-handed writing icon!
+I'd like to have included some more interesting animations. I stuck with pretty simple transform: scale(). The only other "transform" css I used flipped the writing icon on my homepage because I'm left-handed, lol, and I couldn't find a left-handed writing icon.
 
 I tried to get more adventurous with my color schemes on my bio and projects page, but I still think my site overall is kind of plain, though at least the aesthetic is consistent (I guess?).
 
@@ -75,4 +75,6 @@ My css definitely isn't dry. I duplicated a lot of code in my media queries that
 
 Over all, I'd like to have more content on my site. I had a lot of ideas (page for collaborators, blog, etc.) that I had to table to focus my energy effectively. I also would really love to include an in-browser game or quiz. I used to do a lot of surveys on my instagram, and found that to be super entertaining and interesting. I once asked my followers if they liked cilantro or if they had the recessive gene that makes cilantro taste like soap (like me) - supposedly 1 in 3 people have the recessive gene. I got over 100 respondents, and I swear it was a perfect 33%/66% split. It would be cool to gather survey responses from unique page visitors, and print out the live results whenever a user answered the question.
 
-Really want to figure out how to make the image carousels "swipeable" on mobile. I tried to use the "swiperight"/"swipeleft" event listener, but was unsuccessful.
+Really want to figure out how to make the image carousels "swipeable" on mobile. I tried to use the "swiperight"/"swipeleft" event listener, but was unsuccessful. Pretty sure I'd need to add some kind of animation.
+
+Small thing, but I really wanted to find a way to mouseover the icons on my homepage and have an icon label appear so the user would actually know that the first icon takes you to my resume, and the second one to my projects page. 
