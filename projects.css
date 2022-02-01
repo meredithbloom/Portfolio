@@ -66,7 +66,7 @@
 
   /* header with menu and contact info modal */
   header {
-    background-color: #253F62;
+    background: linear-gradient(90deg, rgba(132,71,255,1) 0%, rgba(4,138,129,1) 50%, rgba(6,214,160,1) 100%);
     display: flex;
     flex-flow: column wrap;
     align-content: center;
@@ -222,6 +222,7 @@
     align-content: space-around;
     align-items: center;
     justify-content: space-around;
+    height: 300px;
   }
 
   .back {
@@ -268,7 +269,7 @@
     text-align: center;
     font-size: 15px;
     color: #253F62;
-    margin: 10px 0 5px 0;
+    margin: 20px 0 5px 0;
   }
 
   p {
@@ -283,7 +284,6 @@
 
   .divider {
     width: 80%;
-    border: 1px solid grey;
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -318,12 +318,10 @@
 
 
   header {
-    background-color: #253F62;
     display: flex;
     flex-flow: column wrap;
     align-content: center;
     align-items: center;
-    border: 2px solid #253F62;
   }
 
   #close-menu-btn {
@@ -347,12 +345,12 @@
     border: none;
     font-family: "misoregular";
     color: white;
-    background-color: #253F62;
+    background-color: rgba(37,63,98,0);
   }
 
 
   h1{
-    font-size: 30px;
+    font-size: 35px;
     color: white;
   }
 
@@ -535,7 +533,6 @@
 
   .divider {
     width: 80%;
-    border: 1px solid grey;
     margin: 0 auto;
     margin-top: 10px;
   }
@@ -567,12 +564,10 @@
 @media (min-width: 826px) and (max-width: 1030px) {
 
   header {
-    background-color: #253F62;
     display: flex;
     flex-flow: column wrap;
     align-content: center;
     align-items: center;
-    border: 2px solid #253F62;
   }
 
   #close-menu-btn {
@@ -596,7 +591,7 @@
     border: none;
     font-family: "misoregular";
     color: white;
-    background-color: #253F62;
+    background-color: rgba(37,63,98,0);
   }
 
 
@@ -789,7 +784,6 @@
 
   .divider {
     width: 80%;
-    border: 1px solid grey;
     margin: 0 auto;
     margin-top: 10px;
   }
@@ -827,12 +821,10 @@
 
   /* css for header - same for every page */
   header {
-    background-color: #253F62;
     display: flex;
     flex-flow: column wrap;
     align-content: center;
     align-items: center;
-    border: 2px solid #253F62;
   }
 
   /* menu dropdown and contact info modal */
@@ -857,7 +849,7 @@
     border: none;
     font-family: "misoregular";
     color: white;
-    background-color: #253F62;
+    background-color: rgba(37,63,98,0);
   }
 
 
@@ -989,7 +981,7 @@
     align-content: space-around;
     align-items: center;
     justify-content: space-around;
-    height: 700px;
+    height: 800px;
   }
 
   /* back button for carousel */
@@ -1020,7 +1012,7 @@
     max-width: 700px;
     width: 70%;
     margin: 0 auto;
-    height: 300px;
+    /* height: 300px; */
     margin-top: 25px;
     display: flex;
     align-items: center;
@@ -1028,7 +1020,7 @@
   }
 
   #project2 {
-    height: 750px;
+    height: 800px;
   }
 
 
@@ -1061,8 +1053,6 @@
 
   .divider {
     width: 80%;
-    height: 2px;
-    background-color: gray;
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 40px;
@@ -1105,71 +1095,19 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 body {
   margin: 0 auto;
 }
 
 header {
-  position: sticky; top: 0;
+  background: linear-gradient(90deg, rgba(132,71,255,1) 0%, rgba(4,138,129,1) 50%, rgba(6,214,160,1) 100%);
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
   z-index: 1;
-  /* background-color: rgba(37,63,98,0);
-  height: 100px; */
 }
 
 
@@ -1210,29 +1148,50 @@ ion-icon:hover {
   cursor: default;
 }
 
+.divider {
+  width: 80%;
+  background: linear-gradient(90deg, rgba(132,71,255,1) 0%, rgba(4,138,129,1) 50%, rgba(6,214,160,1) 100%);
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 2px;
+}
+
+.back {
+  background: linear-gradient(90deg, rgba(132,71,255,1) 0%, rgba(4,138,129,1) 50%, rgba(6,214,160,1) 100%);
+  border: none;
+}
+
+.forward {
+  background: linear-gradient(90deg, rgba(6,214,160,1) 0%, rgba(4,138,129,1) 50%, rgba(132,71,255,1) 100%);
+  border: none;
+}
 
 h2 {
   font-family: 'caviar_dreamsbold';
+  color: rgba(122,76,245,1);
 }
 
 h3 {
   font-family: "caviar_dreamsbold";
+  color: rgba(122,76,245,1);
 }
 
 h4 {
   font-family: 'caviar_dreamsbold';
   text-align: center;
-  color: #253F62;
+  color: rgba(122,76,245,1);
 }
 
 h5 {
   font-family: 'caviar_dreamsbold';
-  color: #253F62;
+  color: rgba(122,76,245,1);
 
 }
 
 p {
   font-family: 'misoregular';
+  color: rgba(122,76,245,1);
 }
 
 ul {
