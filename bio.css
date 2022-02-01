@@ -844,9 +844,6 @@
     background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 50%, rgba(238,174,202,1) 100%);
   }
 
-  /* button:hover {
-    transform: scale(1.5);
-  } */
 
   .carousel-selector {
     /* border: 1px solid pink; */
@@ -1088,10 +1085,6 @@
 
   }
 
-  .dropdown-li:hover {
-    transform: scale(1.2);
-  }
-
   /* contact info modal  */
   #contact-modal {
       background-color: rgba(37,63,98,0.7);
@@ -1173,7 +1166,11 @@
     background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 50%, rgba(238,174,202,1) 100%);
   }
 
-  button:hover {
+  .back:hover {
+    transform: scale(1.5);
+  }
+
+  .forward:hover {
     transform: scale(1.5);
   }
 
@@ -1372,6 +1369,14 @@ header {
   display: none;
 
 }
+
+/* .dropdown-li:hover {
+  transform: scale(1.2);
+} */
+
+/* #contact-modal-open:hover {
+  transform: scale(1.2);
+} */
 
 
 
