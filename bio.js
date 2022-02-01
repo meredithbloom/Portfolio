@@ -235,10 +235,6 @@ $(() => {
   $nextMeBtn.on('click', nextMe);
   $backMeBtn.on('click', prevMe);
 
-  //testing for mobile swipe functionality
-  $meSwipeDiv.on('swipeleft', nextMe);
-  $meSwipeDiv.on('swiperight', prevMe);
-
   //FAMILY image carousel
   $nextFamBtn.on('click', nextFam);
   $backFamBtn.on('click', prevFam);
