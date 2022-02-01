@@ -77,4 +77,6 @@ Over all, I'd like to have more content on my site. I had a lot of ideas (page f
 
 Really want to figure out how to make the image carousels "swipeable" on mobile. I tried to use the "swiperight"/"swipeleft" event listener, but was unsuccessful. Pretty sure I'd need to add some kind of animation.
 
-Small thing, but I really wanted to find a way to mouseover the icons on my homepage and have an icon label appear so the user would actually know that the first icon takes you to my resume, and the second one to my projects page. 
+Small thing, but I really wanted to find a way to mouseover the icons on my homepage and have an icon label appear so the user would actually know that the first icon takes you to my resume, and the second one to my projects page.
+
+I only wrote code for Google chrome - didn't add any mozilla/webkit code.
