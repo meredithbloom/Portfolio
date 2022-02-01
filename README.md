@@ -65,7 +65,7 @@ I'm still a little shaky on how to make height of an element responsive. I had p
 
 ///----------/// IMPROVEMENTS ///----------///
 
-I wanted to add some more text on the Bio page, ideally connected to the image carousels (the text below the images would change as the user moved between images). In the interest of time, I focused on the core functionality. I think I'd try to go about this in the same way I looped through the category options and image carousels simultaneously - by aligning related info across different arrays, and just assigning them the same index, so whenever the index changed, everything changed with it.
+I wanted to add some more text on the Bio page, ideally connected to the image carousels (the text below the images would change as the user moved between images). In the interest of time, I focused on the core functionality. I think I'd try to go about this in the same way I looped through the category options and image carousels simultaneously - by aligning related info across different arrays, and just assigning them the same index, so whenever the index changed, everything changed with it. I think I could probably use objects to pull the info from one array. I initially tried this, but was having trouble assigning the key-values to html elements.
 
 I'd like to have included some more interesting animations. I stuck with pretty simple transform: scale(). The only other "transform" css I used flipped the writing icon on my homepage because I'm left-handed, lol, and I couldn't find a left-handed writing icon!
 
