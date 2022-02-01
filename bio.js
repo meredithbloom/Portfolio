@@ -234,13 +234,25 @@ $(() => {
   $nextMeBtn.on('click', nextMe);
   $backMeBtn.on('click', prevMe);
 
+  //testing for mobile swipe functionality
+  $currentMeImg.on('swipeleft', nextMe);
+  $currentMeImg.on('swiperight', prevMe);
+
   //FAMILY image carousel
   $nextFamBtn.on('click', nextFam);
   $backFamBtn.on('click', prevFam);
 
+  //testing for mobile swipe functionality
+  $currentFamImg.on('swipeleft', nextFam);
+  $currentFamImg.on('swiperight', prevFam);
+
   //FRIEND image carousel
   $nextFriendBtn.on('click', nextFriend);
   $backFriendBtn.on('click', prevFriend);
+
+  //testing for mobile swipe functionality
+  $currentFriendImg.on('swipeleft', nextFriend);
+  $currentFriendImg.on('swiperight', prevFriend);
 
   //MEME/VALUE image carousel
   $nextValueBtn.on('click', nextVal);
